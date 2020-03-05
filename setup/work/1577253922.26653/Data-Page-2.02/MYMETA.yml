@@ -1,0 +1,24 @@
+---
+abstract: 'help when paging through sets of results'
+author:
+  - "Based on code originally by Leo Lapworth, with many changes added by\nby Leon Brocard <acme@astray.com>."
+build_requires: {}
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4229, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Data-Page
+provides:
+  Data::Page:
+    file: lib/Data/Page.pm
+    version: '2.02'
+requires:
+  Class::Accessor::Chained::Fast: '0'
+  Test::Exception: '0'
+  Test::More: '0'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '2.02'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

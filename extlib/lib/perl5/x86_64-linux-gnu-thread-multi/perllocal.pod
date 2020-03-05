@@ -1,0 +1,440 @@
+=head2 Wed Dec 25 06:04:07 2019: C<Module> L<Module::CoreList|Module::CoreList>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 5.20191220>
+
+=item *
+
+C<EXE_FILES: corelist>
+
+=back
+
+=head2 Wed Dec 25 06:05:21 2019: C<Module> L<ExtUtils::MakeMaker|ExtUtils::MakeMaker>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 7.42>
+
+=item *
+
+C<EXE_FILES: bin/instmodsh>
+
+=back
+
+=head2 Wed Dec 25 06:09:13 2019: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.634>
+
+=item *
+
+C<EXE_FILES: dbilogstrip dbiprof dbiproxy>
+
+=back
+
+=head2 Wed Dec 25 06:09:19 2019: C<Module> L<Test::Warnings|Test::Warnings>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.028>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:09:22 2019: C<Module> L<Sub::Identify|Sub::Identify>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.14>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:09:31 2019: C<Module> L<Object::Simple|Object::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.14>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:09:33 2019: C<Module> L<Validator::Custom|Validator::Custom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:25 2019: C<Module> L<Mojolicious|Mojolicious>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.57>
+
+=item *
+
+C<EXE_FILES: script/hypnotoad script/mojo script/morbo>
+
+=back
+
+=head2 Wed Dec 25 06:10:27 2019: C<Module> L<Config::Tiny|Config::Tiny>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:29 2019: C<Module> L<Mojolicious::Plugin::INIConfig|Mojolicious::Plugin::INIConfig>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:33 2019: C<Module> L<Class::Accessor|Class::Accessor>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.51>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:37 2019: C<Module> L<Sub::Uplevel|Sub::Uplevel>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.2800>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:39 2019: C<Module> L<Test::Exception|Test::Exception>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.43>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:10:43 2019: C<Module> L<Mojolicious::Plugin::AutoRoute|Mojolicious::Plugin::AutoRoute>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.19>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:11:37 2019: C<Module> L<DBD::SQLite|DBD::SQLite>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.50>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:11:44 2019: C<Module> L<DBIx::Custom|DBIx::Custom>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.40>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:11:49 2019: C<Module> L<Mojolicious::Plugin::DBViewer|Mojolicious::Plugin::DBViewer>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.28>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:11:52 2019: C<Module> L<File::pushd|File::pushd>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.016>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:11:54 2019: C<Module> L<Mojolicious::Plugin::BasicAuth|Mojolicious::Plugin::BasicAuth>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Wed Dec 25 06:12:23 2019: C<Module> L<Time::HiRes|Time::HiRes>
+
+=over 4
+
+=item *
+
+C<installed into: /home/pronoor/gitprep/extlib/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.9732>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

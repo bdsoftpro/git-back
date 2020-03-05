@@ -1,0 +1,93 @@
+Revision history for Test::MockModule
+
+v0.171.0
+- 89dc5c0 Fixes #25 - mocking core::global no longer fails trying to load the module - Geoff Franks
+- 9bb081a update ci for fewer infinite loops - Geoff Franks
+- 289d014 Update release notes for all the newly merged PRs - Geoff Franks
+- fef9e74 Allow chaining of new with mock, redefine, define - Nicolas Rochelemagne
+- e136131 Prevent redefine() from triggering DESTROY. - Felipe Gasper
+- 311f6b4 Adjust Travis CI configuration to use travis-perl.github.io - Nicolas Rochelemagne
+- 2bed3e2 Add strict mode to ban the use of noop and mock. - Todd Rinaldo
+- 0298d8d Provide define method so the mock method is unneeded in tests. - Todd Rinaldo
+
+v0.171.0
+- allow chaining of new with mock, redefine, define
+- redefine() no longer triggers errors if the object being mocked is not a hashref
+- Adds a define() method for mocking new functions that do not exist. Throws an
+  error if a function does exist.
+- Adds `strict` mode to prevent usage of noop() and mock() functions, and force
+  the usage of define/redefine if desired.:
+  ```
+  use Test::MockModule qw/strict/;
+  ```
+- Mocking CORE::GLOBAL no longer throws errors indicating CORE::GLOBAL should have
+  been installed/loaded
+
+v0.170.0
+- 182d066 Fix versioning for semver conversion + PAUSE - Geoff Franks
+- 4afeedf release v0.17.0 - CI Bot
+- 9df8ac4 Add CI pipeline for releasing to cpan - Geoff Franks
+- 577350e Pod - provide a code snippet for original usage - Nicolas R
+- 3e4ec72 Add missing pod entries - Geoff Franks
+
+v0.16
+    - Fixes an issue where warnings were thrown for mismatched prototypes,
+      when mocking a prototyped function.
+
+      Thanks @toddr for the fix!
+
+v0.15
+    - Fixes a minor bug in the release tarball
+
+v0.14
+    - Fixes a bug where the `redefine()` function was dying when attempting to
+      mock a function that was defined further up a module's inheritance chain.
+      It now only dies when the mocked function does not exist in the module being
+      mocked, or any of its parent modules. Thanks @atoomic for the improvement!
+
+v0.13
+    - Added the `redefine()` function. It works just like `mock()`, except if the
+      method being mocked doesn't exist, it causes a panic. Many thanks to Felipe
+      Gasper for this feature!
+
+v0.12
+    - Added the `noop()` function to make mocking noops easier. Thanks for the PR,
+      Ali Zia!
+
+v0.11 2016-10-27
+    - Various housekeeping, testing and minor fixes, courtesy of Paul Cochrane, thanks!
+
+v0.10 2015-05-30
+    - Updated docs for mocking when using exported functions
+
+v0.09 2015-03-15
+    - Ensure LICENSE autogenerates for distribution, fixed license issues in Build.PL
+
+v0.08 2015-03-14
+    - Updated README with correct instructions now that we use Build.PL
+
+v0.07 2015-03-14
+    - Updated docs for more clarity when handling objects of mocked classes.
+
+v0.06 2015-03-07
+    - unmock() on inherited subroutines will dispatch to the parent module,
+      rather than replace the local subroutine with the parent's subroutine
+      from the time of mocking (RT77439)
+
+v0.05 2004-03-24
+    - unmock() accepts a list of subroutines to unmock. Thanks to David Wheeler
+      for the suggestion and patch
+    - Added t/pod_coverage.t
+
+v0.04  2004-12-12
+    - You can now mock a subroutine with a scalar value or a reference
+      (install sub that returns the value). Thanks to Ovid for the suggestion.
+
+v0.03  2004-12-05
+    - Restores subs/methods that previously didn't exist (undefine them)
+
+v0.02  2004-11-28
+    - Fixed restoring inherited methods
+
+v0.01  2004-11-28
+    - Initial revision

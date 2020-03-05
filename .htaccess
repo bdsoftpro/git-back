@@ -1,0 +1,7 @@
+deny from all
+
+<Files ~ "gitprep\.cgi">
+allow from all
+</Files>
+
+DirectoryIndex index.cgi

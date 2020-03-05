@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /home/pronoor/gitprep/data/rep/.bashtemp/b
+./run

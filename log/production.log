@@ -1,0 +1,227 @@
+[Wed Dec 25 00:48:56 2019] [info] Listening at "http://*:10020"
+[Wed Dec 25 00:48:56 2019] [info] Manager 9535 started
+[Wed Dec 25 00:48:56 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 00:54:33 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 00:54:33 2019] [info] Manager 9637 started
+[Wed Dec 25 00:54:33 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 01:07:18 2019] [warn] Authentication: User name is empty
+[Wed Dec 25 03:28:52 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 03:28:52 2019] [info] Manager 12242 started
+[Wed Dec 25 03:28:52 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 03:44:16 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 03:44:16 2019] [info] Manager 12548 started
+[Wed Dec 25 03:44:16 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 03:49:34 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 03:49:34 2019] [info] Manager 12658 started
+[Wed Dec 25 03:49:34 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 10:24:47 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 10:24:47 2019] [info] Manager 18485 started
+[Wed Dec 25 10:24:47 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 15:03:37 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 15:03:37 2019] [info] Manager 24588 started
+[Wed Dec 25 15:03:37 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Dec 25 15:05:56 2019] [info] Listening at "http://*:80"
+[Wed Dec 25 15:05:56 2019] [info] Manager 24636 started
+[Wed Dec 25 15:05:56 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Thu Dec 26 16:16:00 2019] [info] Listening at "http://*:80"
+[Thu Dec 26 16:16:00 2019] [info] Manager 7418 started
+[Thu Dec 26 16:16:00 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Dec 27 13:10:22 2019] [info] Listening at "http://*:80"
+[Fri Dec 27 13:10:22 2019] [info] Manager 15338 started
+[Fri Dec 27 13:10:22 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Dec 27 13:12:29 2019] [info] Listening at "http://*:80"
+[Fri Dec 27 13:12:29 2019] [info] Manager 15385 started
+[Fri Dec 27 13:12:29 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Dec 27 13:22:34 2019] [info] Listening at "http://*:80"
+[Fri Dec 27 13:22:34 2019] [info] Manager 15582 started
+[Fri Dec 27 13:22:34 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Dec 27 13:31:07 2019] [warn] Authentication: User name is empty
+[Fri Dec 27 23:57:36 2019] [info] Listening at "http://*:80"
+[Fri Dec 27 23:57:36 2019] [info] Manager 32018 started
+[Fri Dec 27 23:57:36 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Sun Dec 29 03:20:02 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 03:23:40 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 03:25:03 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 03:32:16 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 03:34:07 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 03:34:38 2019] [warn] Authentication: User name is empty
+[Sun Dec 29 08:34:10 2019] [error] 
+[Sun Dec 29 11:58:42 2019] [info] Listening at "http://*:80"
+[Sun Dec 29 11:58:42 2019] [info] Manager 1038 started
+[Sun Dec 29 11:58:42 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Sun Dec 29 12:01:54 2019] [info] Listening at "http://*:80"
+[Sun Dec 29 12:01:54 2019] [info] Manager 1106 started
+[Sun Dec 29 12:01:54 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Sun Dec 29 20:59:35 2019] [info] Listening at "http://*:80"
+[Sun Dec 29 20:59:35 2019] [info] Manager 20864 started
+[Sun Dec 29 20:59:35 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Mon Dec 30 00:19:32 2019] [info] Listening at "http://*:80"
+[Mon Dec 30 00:19:32 2019] [info] Manager 24914 started
+[Mon Dec 30 00:19:32 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Mon Dec 30 00:20:17 2019] [error] Can't locate object method "new" via package "File::Size" (perhaps you forgot to load "File::Size"?) at template /auto/_admin/users.html.ep line 118.
+113:             </td>
+114: 	    <td>
+115: 	      <%
+116: 		my $Dir = File::Size->new(
+117: 		    dir            => app->rep_home."/".$user->{id},
+118: 		    blocksize      => 1024,
+119: 		    followsymlinks => 1,
+120: 		    humanreadable  => 1
+121: 		  );
+122:               %>
+123:               <%= $Dir->getsize() %>
+
+[Mon Dec 30 00:42:09 2019] [info] Listening at "http://*:80"
+[Mon Dec 30 00:42:09 2019] [info] Manager 25472 started
+[Mon Dec 30 00:42:09 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Mon Dec 30 06:36:12 2019] [info] Listening at "http://*:80"
+[Mon Dec 30 06:36:12 2019] [info] Manager 31867 started
+[Mon Dec 30 06:36:12 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Tue Dec 31 01:26:07 2019] [error] Cannot find file at template /blob.html.ep line 41.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Tue Dec 31 01:31:44 2019] [info] Listening at "http://*:80"
+[Tue Dec 31 01:31:44 2019] [info] Manager 17284 started
+[Tue Dec 31 01:31:44 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Tue Dec 31 01:40:27 2019] [info] Listening at "http://*:80"
+[Tue Dec 31 01:40:27 2019] [info] Manager 17427 started
+[Tue Dec 31 01:40:27 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Tue Dec 31 01:44:48 2019] [info] Listening at "http://*:80"
+[Tue Dec 31 01:44:48 2019] [info] Manager 17518 started
+[Tue Dec 31 01:44:48 2019] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Wed Jan  1 22:11:02 2020] [error] Gitprep::Git=HASH(0x56345257eaf8)404Reading tree failed at /usr/share/perl/5.26/Carp.pm line 167.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Wed Jan  1 23:48:11 2020] [error] Gitprep::Git=HASH(0x56345257eaf8)404Reading tree failed at /usr/share/perl/5.26/Carp.pm line 167.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Thu Jan  2 06:54:42 2020] [info] Listening at "http://*:80"
+[Thu Jan  2 06:54:42 2020] [info] Manager 5062 started
+[Thu Jan  2 06:54:42 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Thu Jan  2 16:31:54 2020] [error] 
+[Fri Jan  3 01:11:19 2020] [info] Listening at "http://*:80"
+[Fri Jan  3 01:11:19 2020] [info] Manager 24847 started
+[Fri Jan  3 01:11:19 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Jan  3 14:20:27 2020] [error] Cannot find file at template /blob.html.ep line 41.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Sun Jan  5 21:36:30 2020] [info] Listening at "http://*:80"
+[Sun Jan  5 21:36:30 2020] [info] Manager 6557 started
+[Sun Jan  5 21:36:30 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Mon Jan  6 21:41:27 2020] [error] Cannot find file at template /blob.html.ep line 41.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Tue Jan  7 07:30:39 2020] [error] Gitprep::Git=HASH(0x563abb8224c8)404Reading tree failed at /usr/share/perl/5.26/Carp.pm line 167.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Tue Jan  7 12:32:21 2020] [error] Cannot find file at template /blob.html.ep line 41.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Tue Jan  7 21:00:24 2020] [error] Gitprep::Git=HASH(0x563abb8224c8)404Reading tree failed at /usr/share/perl/5.26/Carp.pm line 167.
+162:     # Icky backwards compatibility wrapper. :-(
+163:     local @CARP_NOT = $cgc ? $cgc->() : caller();
+164:     shortmess_heavy(@_);
+165: }
+166: 
+167: sub croak   { die shortmess @_ }
+168: sub confess { die longmess @_ }
+169: sub carp    { warn shortmess @_ }
+170: sub cluck   { warn longmess @_ }
+171: 
+172: BEGIN {
+
+[Sat Jan 11 15:15:46 2020] [info] Listening at "http://*:80"
+[Sat Jan 11 15:15:46 2020] [info] Manager 1115 started
+[Sat Jan 11 15:15:46 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Sat Jan 11 15:48:08 2020] [info] Listening at "http://*:80"
+[Sat Jan 11 15:48:08 2020] [info] Manager 1196 started
+[Sat Jan 11 15:48:08 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Sun Jan 19 07:58:33 2020] [error] 
+[Sun Jan 19 09:08:19 2020] [error] 
+[Mon Jan 27 09:29:11 2020] [info] Listening at "http://*:80"
+[Mon Jan 27 09:29:11 2020] [info] Manager 1428 started
+[Mon Jan 27 09:29:11 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Fri Jan 31 14:44:35 2020] [error] 
+[Fri Jan 31 15:20:03 2020] [error] 
+[Fri Jan 31 23:19:55 2020] [error] 
+[Fri Jan 31 23:35:32 2020] [error] 
+[Sat Feb  1 00:24:23 2020] [error] 
+[Sat Feb  1 01:25:02 2020] [error] 
+[Sat Feb  1 01:57:42 2020] [error] 
+[Sat Feb  1 02:15:24 2020] [error] 
+[Sat Feb  1 03:23:32 2020] [error] 
+[Sat Feb 22 18:02:54 2020] [error] 
+[Mon Mar  2 16:28:20 2020] [info] Listening at "http://*:80"
+[Mon Mar  2 16:28:20 2020] [info] Manager 14753 started
+[Mon Mar  2 16:28:20 2020] [info] Creating process id file "/home/pronoor/gitprep/script/hypnotoad.pid"
+[Mon Mar  2 21:58:55 2020] [error] 

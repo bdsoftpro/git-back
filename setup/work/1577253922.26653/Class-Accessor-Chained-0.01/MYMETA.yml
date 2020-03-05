@@ -1,0 +1,23 @@
+---
+abstract: unknown
+author:
+  - unknown
+build_requires:
+  Test::More: '0'
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4229, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Class-Accessor-Chained
+provides:
+  Class::Accessor::Chained:
+    file: lib/Class/Accessor/Chained.pm
+    version: '0.01'
+  Class::Accessor::Chained::Fast:
+    file: lib/Class/Accessor/Chained/Fast.pm
+requires:
+  Class::Accessor: '0'
+version: '0.01'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

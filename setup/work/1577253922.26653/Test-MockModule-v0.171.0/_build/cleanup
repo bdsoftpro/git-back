@@ -1,0 +1,8 @@
+do{ my $x = {
+       '*.deb' => 1,
+       '*.rpm' => 1,
+       'Test-MockModule-*' => 1,
+       'blib' => 1,
+       'cover_db' => 1
+     };
+$x; }

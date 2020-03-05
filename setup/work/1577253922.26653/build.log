@@ -1,0 +1,2588 @@
+cpanm (App::cpanminus) 1.7040 on perl 5.026001 built for x86_64-linux-gnu-thread-multi
+Work directory is /home/pronoor/gitprep/setup/work/1577253922.26653
+You have make /usr/bin/make
+You have /usr/bin/wget
+You have /bin/tar: tar (GNU tar) 1.29
+Copyright (C) 2015 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by John Gilmore and Jay Fenlason.
+You have /usr/bin/unzip
+--> Working on .
+Entering /home/pronoor/gitprep
+Configuring /home/pronoor/gitprep
+-> OK
+Checking if you have DBIx::Connector == 0.56 ... No
+Checking if you have Validator::Custom == 1.01 ... No
+Checking if you have Mojolicious::Plugin::INIConfig == 0.03 ... No
+Checking if you have Mojolicious::Plugin::DBViewer == 0.28 ... No
+Checking if you have Mojolicious == 6.57 ... No
+Checking if you have DBD::SQLite == 1.50 ... No
+Checking if you have Text::Markdown::Hoedown == 1.01 ... No
+Checking if you have Data::Page::Navigation == 0.06 ... No
+Checking if you have Mojolicious::Plugin::BasicAuth == 0.08 ... No
+Checking if you have Time::HiRes == 1.9732 ... No (1.9741 doesn't satisfy == 1.9732)
+Checking if you have Time::Moment == 0.38 ... No
+Checking if you have Config::Tiny == 2.23 ... No
+Checking if you have Object::Simple == 3.14 ... No
+Checking if you have DBIx::Custom == 0.40 ... No
+Checking if you have Data::Page == 2.02 ... No
+Checking if you have DBI == 1.634 ... No
+Checking if you have Mojolicious::Plugin::AutoRoute == 0.19 ... No
+==> Found dependencies: DBIx::Connector, Validator::Custom, Mojolicious::Plugin::INIConfig, Mojolicious::Plugin::DBViewer, Mojolicious, DBD::SQLite, Text::Markdown::Hoedown, Data::Page::Navigation, Mojolicious::Plugin::BasicAuth, Time::HiRes, Time::Moment, Config::Tiny, Object::Simple, DBIx::Custom, Data::Page, DBI, Mojolicious::Plugin::AutoRoute
+Searching DBIx::Connector (== 0.56) on cpanmetadb ...
+--> Working on DBIx::Connector
+Fetching http://www.cpan.org/authors/id/D/DW/DWHEELER/DBIx-Connector-0.56.tar.gz
+-> OK
+Unpacking DBIx-Connector-0.56.tar.gz
+Entering DBIx-Connector-0.56
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.06)
+Checking if you have Module::Build 0.38 ... No
+==> Found dependencies: Module::Build
+Searching Module::Build (0.38) on cpanmetadb ...
+--> Working on Module::Build
+Fetching http://www.cpan.org/authors/id/L/LE/LEONT/Module-Build-0.4229.tar.gz
+-> OK
+Unpacking Module-Build-0.4229.tar.gz
+Entering Module-Build-0.4229
+Checking configure dependencies from META.json
+Checking if you have Perl::OSType 1 ... Yes (1.010)
+Checking if you have File::Copy 0 ... Yes (2.32)
+Checking if you have File::Path 0 ... Yes (2.12_01)
+Checking if you have Module::Metadata 1.000002 ... Yes (1.000033)
+Checking if you have File::Spec 0.82 ... Yes (3.67)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have version 0.87 ... Yes (0.9917)
+Checking if you have CPAN::Meta 2.142060 ... Yes (2.150010)
+Configuring Module-Build-0.4229
+Running Build.PL
+
+Checking optional features...
+inc_bundling_support....disabled
+  requires:
+    ! inc::latest is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Module-Build' version '0.4229'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Module::Metadata 1.000002 ... Yes (1.000033)
+Checking if you have TAP::Harness 3.29 ... Yes (3.38)
+Checking if you have File::Spec 0.82 ... Yes (3.67)
+Checking if you have Parse::CPAN::Meta 1.4401 ... Yes (2.150010)
+Checking if you have Perl::OSType 1 ... Yes (1.010)
+Checking if you have File::Temp 0.15 ... Yes (0.2304)
+Checking if you have ExtUtils::Manifest 0 ... Yes (1.70)
+Checking if you have Text::Abbrev 0 ... Yes (1.02)
+Checking if you have File::Path 0 ... Yes (2.12_01)
+Checking if you have ExtUtils::CBuilder 0.27 ... Yes (0.280225)
+Checking if you have Text::ParseWords 0 ... Yes (3.30)
+Checking if you have File::Compare 0 ... Yes (1.1006)
+Checking if you have ExtUtils::ParseXS 2.21 ... Yes (3.34)
+Checking if you have Pod::Man 2.17 ... Yes (4.09)
+Checking if you have ExtUtils::Install 0 ... Yes (2.06)
+Checking if you have ExtUtils::Mkbootstrap 0 ... Yes (7.42)
+Checking if you have CPAN::Meta::YAML 0.003 ... Yes (0.018)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have Test::More 0.49 ... Yes (1.302073)
+Checking if you have File::Copy 0 ... Yes (2.32)
+Checking if you have File::Find 0 ... Yes (1.34)
+Checking if you have Getopt::Long 0 ... Yes (2.49)
+Checking if you have CPAN::Meta 2.142060 ... Yes (2.150010)
+Checking if you have Cwd 0 ... Yes (3.67)
+Checking if you have Data::Dumper 0 ... Yes (2.167)
+Checking if you have version 0.87 ... Yes (0.9917)
+Building and testing Module-Build-0.4229
+Building Module-Build
+t/00-compile.t ................. ok
+t/PL_files.t ................... ok
+t/actions/installdeps.t ........ ok
+t/actions/manifest_skip.t ...... ok
+t/add_property.t ............... ok
+t/add_property_array.t ......... ok
+t/add_property_hash.t .......... ok
+t/basic.t ...................... ok
+t/bundle_inc.t ................. skipped: $ENV{MB_TEST_EXPERIMENTAL} is not set
+t/compat.t ..................... ok
+t/compat/exit.t ................ ok
+t/debug.t ...................... ok
+t/destinations.t ............... ok
+t/ext.t ........................ ok
+t/extend.t ..................... ok
+t/files.t ...................... ok
+t/help.t ....................... ok
+t/install.t .................... ok
+t/install_extra_target.t ....... ok
+t/manifypods.t ................. ok
+t/manifypods_with_utf8.t ....... ok
+t/metadata.t ................... ok
+t/metadata2.t .................. ok
+t/mymeta.t ..................... ok
+t/new_from_context.t ........... ok
+t/notes.t ...................... ok
+t/par.t ........................ skipped: PAR::Dist 0.17 or up not installed to check .par's.
+t/parents.t .................... ok
+t/perl_mb_opt.t ................ ok
+t/pod_parser.t ................. ok
+t/ppm.t ........................ ok
+t/properties/dist_suffix.t ..... ok
+t/properties/license.t ......... ok
+t/properties/module_name.t ..... ok
+t/properties/needs_compiler.t .. ok
+t/properties/release_status.t .. ok
+t/properties/requires.t ........ ok
+t/properties/share_dir.t ....... ok
+t/resume.t ..................... ok
+t/runthrough.t ................. ok
+t/sample.t ..................... ok
+t/script_dist.t ................ ok
+t/signature.t .................. ok
+t/test_file_exts.t ............. ok
+t/test_reqs.t .................. ok
+t/test_type.t .................. ok
+t/test_types.t ................. ok
+t/tilde.t ...................... ok
+t/unit_run_test_harness.t ...... ok
+t/use_tap_harness.t ............ ok
+t/versions.t ................... ok
+t/write_default_maniskip.t ..... ok
+t/xs.t ......................... ok
+All tests successful.
+Files=53, Tests=1167, 85 wallclock secs ( 0.38 usr  0.10 sys + 74.33 cusr 10.68 csys = 85.49 CPU)
+Result: PASS
+Building Module-Build
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Authoring.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/ConfigData.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Compat.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Notes.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Dumper.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Bundling.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Config.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/API.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Cookbook.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/PodParser.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Base.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/PPMMaker.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/VOS.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/Default.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/cygwin.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/VMS.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/darwin.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/MacOS.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/Unix.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/aix.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/Windows.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Module/Build/Platform/os2.pm
+Installing /home/pronoor/gitprep/extlib/bin/config_data
+-> OK
+Successfully installed Module-Build-0.4229
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Module-Build-0.4229/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Module-Build-0.4229/install.json
+Configuring DBIx-Connector-0.56
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  DBI is not installed
+  build_requires:
+    !  Test::MockModule is not installed
+  recommends:
+    *  DBI is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'DBIx-Connector' version '0.56'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have DBI == 1.634 ... No
+Checking if you have Module::Build 0.30 ... Yes (0.4229)
+Checking if you have Test::MockModule 0.05 ... No
+Checking if you have Test::More 0.88 ... Yes (1.302073)
+==> Found dependencies: DBI, Test::MockModule
+Searching DBI (== 1.634) on cpanmetadb ...
+--> Working on DBI
+Fetching http://backpan.perl.org/authors/id/T/TI/TIMB/DBI-1.634.tar.gz
+-> OK
+Unpacking DBI-1.634.tar.gz
+Entering DBI-1.634
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring DBI-1.634
+Running Makefile.PL
+
+*** Your LANG environment variable is set to 'en_US.UTF-8'
+*** This may cause problems for some perl installations.
+*** If you get test failures, please try again with LANG unset.
+*** If that then works, please email dbi-dev@perl.org with details
+*** including the output of 'perl -V'
+
+Your perl was compiled with gcc (version 7.3.0), okay.
+Creating test wrappers for DBD::Gofer:
+t/zvg_01basics.t 
+t/zvg_02dbidrv.t 
+t/zvg_03handle.t 
+t/zvg_04mods.t 
+t/zvg_05concathash.t 
+t/zvg_06attrs.t 
+t/zvg_07kids.t 
+t/zvg_08keeperr.t 
+t/zvg_09trace.t 
+t/zvg_10examp.t 
+t/zvg_11fetch.t 
+t/zvg_12quote.t 
+t/zvg_13taint.t 
+t/zvg_14utf8.t 
+t/zvg_15array.t 
+t/zvg_16destroy.t 
+t/zvg_19fhtrace.t 
+t/zvg_20meta.t 
+t/zvg_30subclass.t 
+t/zvg_31methcache.t 
+t/zvg_35thrclone.t (use threads)
+t/zvg_40profile.t 
+t/zvg_41prof_dump.t 
+t/zvg_42prof_data.t 
+t/zvg_43prof_env.t 
+t/zvg_48dbi_dbd_sqlengine.t 
+t/zvg_49dbd_file.t 
+t/zvg_50dbm_simple.t 
+t/zvg_51dbm_file.t 
+t/zvg_52dbm_complex.t 
+t/zvg_60preparse.t 
+t/zvg_65transact.t 
+t/zvg_70callbacks.t 
+t/zvg_72childhandles.t 
+t/zvg_80proxy.t 
+t/zvg_85gofer.t 
+t/zvg_86gofer_fail.t 
+t/zvg_87gofer_cache.t 
+t/zvg_90sql_type_cast.t 
+Creating test wrappers for DBI::SQL::Nano:
+t/zvn_48dbi_dbd_sqlengine.t 
+t/zvn_49dbd_file.t 
+t/zvn_50dbm_simple.t 
+t/zvn_51dbm_file.t 
+t/zvn_52dbm_complex.t 
+t/zvn_85gofer.t 
+Creating test wrappers for DBI::PurePerl:
+t/zvp_01basics.t 
+t/zvp_02dbidrv.t 
+t/zvp_03handle.t 
+t/zvp_04mods.t 
+t/zvp_05concathash.t 
+t/zvp_06attrs.t 
+t/zvp_07kids.t 
+t/zvp_08keeperr.t 
+t/zvp_09trace.t 
+t/zvp_10examp.t 
+t/zvp_11fetch.t 
+t/zvp_12quote.t 
+t/zvp_13taint.t 
+t/zvp_14utf8.t 
+t/zvp_15array.t 
+t/zvp_16destroy.t 
+t/zvp_19fhtrace.t 
+t/zvp_20meta.t 
+t/zvp_30subclass.t 
+t/zvp_31methcache.t 
+t/zvp_35thrclone.t (use threads)
+t/zvp_40profile.t 
+t/zvp_41prof_dump.t 
+t/zvp_42prof_data.t 
+t/zvp_43prof_env.t 
+t/zvp_48dbi_dbd_sqlengine.t 
+t/zvp_49dbd_file.t 
+t/zvp_50dbm_simple.t 
+t/zvp_51dbm_file.t 
+t/zvp_52dbm_complex.t 
+t/zvp_60preparse.t 
+t/zvp_65transact.t 
+t/zvp_70callbacks.t 
+t/zvp_72childhandles.t 
+t/zvp_80proxy.t 
+t/zvp_85gofer.t 
+t/zvp_86gofer_fail.t 
+t/zvp_87gofer_cache.t 
+t/zvp_90sql_type_cast.t 
+Creating test wrappers for DBD::Gofer + DBI::SQL::Nano:
+t/zvxgn_48dbi_dbd_sqlengine.t 
+t/zvxgn_49dbd_file.t 
+t/zvxgn_50dbm_simple.t 
+t/zvxgn_51dbm_file.t 
+t/zvxgn_52dbm_complex.t 
+t/zvxgn_85gofer.t 
+Creating test wrappers for DBD::Gofer + DBI::PurePerl:
+t/zvxgp_01basics.t 
+t/zvxgp_02dbidrv.t 
+t/zvxgp_03handle.t 
+t/zvxgp_04mods.t 
+t/zvxgp_05concathash.t 
+t/zvxgp_06attrs.t 
+t/zvxgp_07kids.t 
+t/zvxgp_08keeperr.t 
+t/zvxgp_09trace.t 
+t/zvxgp_10examp.t 
+t/zvxgp_11fetch.t 
+t/zvxgp_12quote.t 
+t/zvxgp_13taint.t 
+t/zvxgp_14utf8.t 
+t/zvxgp_15array.t 
+t/zvxgp_16destroy.t 
+t/zvxgp_19fhtrace.t 
+t/zvxgp_20meta.t 
+t/zvxgp_30subclass.t 
+t/zvxgp_31methcache.t 
+t/zvxgp_35thrclone.t (use threads)
+t/zvxgp_40profile.t 
+t/zvxgp_41prof_dump.t 
+t/zvxgp_42prof_data.t 
+t/zvxgp_43prof_env.t 
+t/zvxgp_48dbi_dbd_sqlengine.t 
+t/zvxgp_49dbd_file.t 
+t/zvxgp_50dbm_simple.t 
+t/zvxgp_51dbm_file.t 
+t/zvxgp_52dbm_complex.t 
+t/zvxgp_60preparse.t 
+t/zvxgp_65transact.t 
+t/zvxgp_70callbacks.t 
+t/zvxgp_72childhandles.t 
+t/zvxgp_80proxy.t 
+t/zvxgp_85gofer.t 
+t/zvxgp_86gofer_fail.t 
+t/zvxgp_87gofer_cache.t 
+t/zvxgp_90sql_type_cast.t 
+Creating test wrappers for DBI::SQL::Nano + DBI::PurePerl:
+t/zvxnp_48dbi_dbd_sqlengine.t 
+t/zvxnp_49dbd_file.t 
+t/zvxnp_50dbm_simple.t 
+t/zvxnp_51dbm_file.t 
+t/zvxnp_52dbm_complex.t 
+t/zvxnp_85gofer.t 
+Creating test wrappers for DBD::Gofer + DBI::SQL::Nano + DBI::PurePerl:
+t/zvxgnp_48dbi_dbd_sqlengine.t 
+t/zvxgnp_49dbd_file.t 
+t/zvxgnp_50dbm_simple.t 
+t/zvxgnp_51dbm_file.t 
+t/zvxgnp_52dbm_complex.t 
+t/zvxgnp_85gofer.t 
+Checking if your kit is complete...
+Looks good
+
+    I see you're using perl 5.026001 on x86_64-linux-gnu-thread-multi, okay.
+    Remember to actually *read* the README file!
+    Use  'make' to build the software (dmake or nmake on Windows).
+    Then 'make test' to execute self tests.
+    Then 'make install' to install the DBI and then delete this working
+    directory before unpacking and building any DBD::* drivers.
+
+Generating a Unix-style Makefile
+Writing Makefile for DBI
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Test::Simple 0.90 ... Yes (1.302073)
+Building and testing DBI-1.634
+"/usr/bin/perl" -MExtUtils::Command -e 'mkpath' -- blib/lib/DBI
+rm -f blib/lib/DBI/Changes.pm
+cp Changes blib/lib/DBI/Changes.pm
+cp lib/DBI/Gofer/Execute.pm blib/lib/DBI/Gofer/Execute.pm
+cp dbixs_rev.h blib/arch/auto/DBI/dbixs_rev.h
+cp DBIXS.h blib/arch/auto/DBI/DBIXS.h
+cp dbivport.h blib/arch/auto/DBI/dbivport.h
+cp lib/DBD/Gofer/Transport/pipeone.pm blib/lib/DBD/Gofer/Transport/pipeone.pm
+cp lib/DBI/DBD/Metadata.pm blib/lib/DBI/DBD/Metadata.pm
+cp lib/DBD/DBM.pm blib/lib/DBD/DBM.pm
+cp lib/DBD/Gofer/Transport/stream.pm blib/lib/DBD/Gofer/Transport/stream.pm
+cp dbd_xsh.h blib/arch/auto/DBI/dbd_xsh.h
+cp lib/DBD/Proxy.pm blib/lib/DBD/Proxy.pm
+cp lib/DBD/Sponge.pm blib/lib/DBD/Sponge.pm
+cp lib/DBD/Gofer/Policy/Base.pm blib/lib/DBD/Gofer/Policy/Base.pm
+cp lib/DBD/Gofer/Policy/rush.pm blib/lib/DBD/Gofer/Policy/rush.pm
+cp lib/DBI/DBD/SqlEngine/HowTo.pod blib/lib/DBI/DBD/SqlEngine/HowTo.pod
+cp lib/DBI/Const/GetInfo/ANSI.pm blib/lib/DBI/Const/GetInfo/ANSI.pm
+cp dbixs_rev.pl blib/lib/dbixs_rev.pl
+cp lib/DBD/Gofer/Transport/corostream.pm blib/lib/DBD/Gofer/Transport/corostream.pm
+cp lib/DBI/Gofer/Request.pm blib/lib/DBI/Gofer/Request.pm
+cp lib/DBI/Const/GetInfoReturn.pm blib/lib/DBI/Const/GetInfoReturn.pm
+cp dbi_sql.h blib/arch/auto/DBI/dbi_sql.h
+cp lib/DBD/Gofer/Transport/null.pm blib/lib/DBD/Gofer/Transport/null.pm
+cp lib/DBD/File/HowTo.pod blib/lib/DBD/File/HowTo.pod
+cp lib/DBD/Gofer/Policy/pedantic.pm blib/lib/DBD/Gofer/Policy/pedantic.pm
+cp lib/DBD/Gofer.pm blib/lib/DBD/Gofer.pm
+cp lib/DBD/File/Developers.pod blib/lib/DBD/File/Developers.pod
+cp dbipport.h blib/arch/auto/DBI/dbipport.h
+cp lib/Bundle/DBI.pm blib/lib/Bundle/DBI.pm
+cp lib/DBI/DBD/SqlEngine.pm blib/lib/DBI/DBD/SqlEngine.pm
+cp lib/DBD/Gofer/Transport/Base.pm blib/lib/DBD/Gofer/Transport/Base.pm
+cp lib/DBD/ExampleP.pm blib/lib/DBD/ExampleP.pm
+cp DBI.pm blib/lib/DBI.pm
+cp Driver_xst.h blib/arch/auto/DBI/Driver_xst.h
+cp lib/DBI/Const/GetInfo/ODBC.pm blib/lib/DBI/Const/GetInfo/ODBC.pm
+cp lib/DBD/NullP.pm blib/lib/DBD/NullP.pm
+cp lib/DBD/Gofer/Policy/classic.pm blib/lib/DBD/Gofer/Policy/classic.pm
+cp lib/DBD/File.pm blib/lib/DBD/File.pm
+cp lib/DBI/DBD.pm blib/lib/DBI/DBD.pm
+cp lib/DBI/Const/GetInfoType.pm blib/lib/DBI/Const/GetInfoType.pm
+cp lib/DBI/Gofer/Response.pm blib/lib/DBI/Gofer/Response.pm
+cp Driver.xst blib/arch/auto/DBI/Driver.xst
+cp lib/DBI/DBD/SqlEngine/Developers.pod blib/lib/DBI/DBD/SqlEngine/Developers.pod
+cp lib/DBI/FAQ.pm blib/lib/DBI/FAQ.pm
+cp lib/DBD/File/Roadmap.pod blib/lib/DBD/File/Roadmap.pod
+cp lib/DBI/Gofer/Transport/stream.pm blib/lib/DBI/Gofer/Transport/stream.pm
+cp lib/DBI/ProfileDumper/Apache.pm blib/lib/DBI/ProfileDumper/Apache.pm
+cp lib/DBI/Gofer/Serializer/Storable.pm blib/lib/DBI/Gofer/Serializer/Storable.pm
+cp lib/DBI/W32ODBC.pm blib/lib/DBI/W32ODBC.pm
+cp lib/DBI/ProxyServer.pm blib/lib/DBI/ProxyServer.pm
+cp lib/Win32/DBIODBC.pm blib/lib/Win32/DBIODBC.pm
+cp lib/DBI/ProfileDumper.pm blib/lib/DBI/ProfileDumper.pm
+cp lib/DBI/ProfileData.pm blib/lib/DBI/ProfileData.pm
+cp lib/DBI/Gofer/Serializer/Base.pm blib/lib/DBI/Gofer/Serializer/Base.pm
+cp lib/DBI/Gofer/Serializer/DataDumper.pm blib/lib/DBI/Gofer/Serializer/DataDumper.pm
+cp lib/DBI/Gofer/Transport/pipeone.pm blib/lib/DBI/Gofer/Transport/pipeone.pm
+cp lib/DBI/SQL/Nano.pm blib/lib/DBI/SQL/Nano.pm
+cp lib/DBI/Util/CacheMemory.pm blib/lib/DBI/Util/CacheMemory.pm
+cp lib/DBI/Profile.pm blib/lib/DBI/Profile.pm
+cp lib/DBI/Gofer/Transport/Base.pm blib/lib/DBI/Gofer/Transport/Base.pm
+cp lib/DBI/Util/_accessor.pm blib/lib/DBI/Util/_accessor.pm
+cp lib/DBI/ProfileSubs.pm blib/lib/DBI/ProfileSubs.pm
+cp lib/DBI/PurePerl.pm blib/lib/DBI/PurePerl.pm
+Running Mkbootstrap for DBI ()
+chmod 644 "DBI.bs"
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- DBI.bs blib/arch/auto/DBI/DBI.bs 644
+"/usr/bin/perl" -p -e "s/~DRIVER~/Perl/g" ./Driver.xst > Perl.xsi
+"/usr/bin/perl" "/usr/share/perl/5.26/ExtUtils/xsubpp"  -typemap '/usr/share/perl/5.26/ExtUtils/typemap' -typemap '/home/pronoor/gitprep/setup/work/1577253922.26653/DBI-1.634/typemap'  Perl.xs > Perl.xsc
+mv Perl.xsc Perl.c
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"1.634\" -DXS_VERSION=\"1.634\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -W -Wall -Wpointer-arith -Wbad-function-cast -Wno-comment -Wno-sign-compare -Wno-cast-qual -Wmissing-noreturn -Wno-unused-parameter Perl.c
+Perl.c: In function ‘XS_DBD__Perl__dr_data_sources’:
+Perl.c:276:7: warning: variable ‘attr’ set but not used [-Wunused-but-set-variable]
+  SV * attr;
+       ^~~~
+Perl.c: In function ‘XS_DBD__Perl__db__login’:
+Perl.c:320:7: warning: variable ‘attribs’ set but not used [-Wunused-but-set-variable]
+  SV * attribs;
+       ^~~~~~~
+Perl.c: In function ‘XS_DBD__Perl__db_last_insert_id’:
+Perl.c:555:7: warning: variable ‘attr’ set but not used [-Wunused-but-set-variable]
+  SV * attr;
+       ^~~~
+"/usr/bin/perl" "/usr/share/perl/5.26/ExtUtils/xsubpp"  -typemap '/usr/share/perl/5.26/ExtUtils/typemap' -typemap '/home/pronoor/gitprep/setup/work/1577253922.26653/DBI-1.634/typemap'  DBI.xs > DBI.xsc
+mv DBI.xsc DBI.c
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"1.634\" -DXS_VERSION=\"1.634\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -W -Wall -Wpointer-arith -Wbad-function-cast -Wno-comment -Wno-sign-compare -Wno-cast-qual -Wmissing-noreturn -Wno-unused-parameter DBI.c
+rm -f blib/arch/auto/DBI/DBI.so
+x86_64-linux-gnu-gcc  -shared -L/usr/local/lib -fstack-protector-strong  DBI.o  -o blib/arch/auto/DBI/DBI.so  \
+      \
+  
+chmod 755 blib/arch/auto/DBI/DBI.so
+"/usr/bin/perl" "-Iblib/arch" "-Iblib/lib" dbilogstrip.PL dbilogstrip 
+Extracted dbilogstrip from dbilogstrip.PL with variable substitutions.
+"/usr/bin/perl" "-Iblib/arch" "-Iblib/lib" dbiprof.PL dbiprof 
+Extracted dbiprof from dbiprof.PL with variable substitutions.
+"/usr/bin/perl" "-Iblib/arch" "-Iblib/lib" dbiproxy.PL dbiproxy 
+Extracted dbiproxy from dbiproxy.PL with variable substitutions.
+cp dbilogstrip blib/script/dbilogstrip
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbilogstrip
+cp dbiprof blib/script/dbiprof
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbiprof
+cp dbiproxy blib/script/dbiproxy
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbiproxy
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- DBI.bs blib/arch/auto/DBI/DBI.bs 644
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-Iblib/lib" "-Iblib/arch" test.pl
+test.pl 
+DBI test application $Revision$
+Switch: DBI 1.634 by Tim Bunce, 1.634
+Available Drivers: DBM, ExampleP, File, Gofer, Proxy, Sponge
+dbi:ExampleP:: testing 3 sets of 20 connections:
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+connect 20 and disconnect them, 3 times: 0.0024s / 60 = 0.0000s
+Testing handle creation speed...
+57142 NullP sth/s perl 5.026001 x86_64-linux-gnu-thread-multi (gcc 7.3.0 -O2 -g) 0.000017s
+
+test.pl done
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/01basics.t .................... ok
+t/02dbidrv.t .................... ok
+t/03handle.t .................... ok
+t/04mods.t ...................... ok
+t/05concathash.t ................ ok
+t/06attrs.t ..................... ok
+t/07kids.t ...................... ok
+t/08keeperr.t ................... ok
+t/09trace.t ..................... ok
+t/10examp.t ..................... ok
+t/11fetch.t ..................... ok
+t/12quote.t ..................... ok
+t/13taint.t ..................... ok
+t/14utf8.t ...................... ok
+t/15array.t ..................... ok
+t/16destroy.t ................... ok
+t/19fhtrace.t ................... ok
+t/20meta.t ...................... ok
+t/30subclass.t .................. ok
+t/31methcache.t ................. ok
+t/35thrclone.t .................. ok
+t/40profile.t ................... ok
+t/41prof_dump.t ................. ok
+t/42prof_data.t ................. ok
+t/43prof_env.t .................. ok
+t/48dbi_dbd_sqlengine.t ......... ok
+t/49dbd_file.t .................. ok
+t/50dbm_simple.t ................ ok
+t/51dbm_file.t .................. ok
+t/52dbm_complex.t ............... skipped: DBI::SQL::Nano is being used
+t/60preparse.t .................. ok
+t/65transact.t .................. ok
+t/70callbacks.t ................. ok
+t/72childhandles.t .............. ok
+t/80proxy.t ..................... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/85gofer.t ..................... ok
+t/86gofer_fail.t ................ ok
+t/87gofer_cache.t ............... ok
+t/90sql_type_cast.t ............. ok
+t/pod-coverage.t ................ skipped: Test::Pod::Coverage 1.04 required for testing POD coverage
+t/pod.t ......................... skipped: Test::Pod 1.00 required for testing POD
+t/zvg_01basics.t ................ ok
+t/zvg_02dbidrv.t ................ ok
+t/zvg_03handle.t ................ ok
+t/zvg_04mods.t .................. ok
+t/zvg_05concathash.t ............ ok
+t/zvg_06attrs.t ................. ok
+t/zvg_07kids.t .................. ok
+t/zvg_08keeperr.t ............... ok
+t/zvg_09trace.t ................. ok
+t/zvg_10examp.t ................. ok
+t/zvg_11fetch.t ................. ok
+t/zvg_12quote.t ................. ok
+t/zvg_13taint.t ................. skipped: Taint attribute tests not functional with DBI_AUTOPROXY
+t/zvg_14utf8.t .................. ok
+t/zvg_15array.t ................. ok
+t/zvg_16destroy.t ............... ok
+t/zvg_19fhtrace.t ............... ok
+t/zvg_20meta.t .................. ok
+t/zvg_30subclass.t .............. ok
+t/zvg_31methcache.t ............. ok
+t/zvg_35thrclone.t .............. ok
+t/zvg_40profile.t ............... ok
+t/zvg_41prof_dump.t ............. ok
+t/zvg_42prof_data.t ............. ok
+t/zvg_43prof_env.t .............. ok
+t/zvg_48dbi_dbd_sqlengine.t ..... ok
+t/zvg_49dbd_file.t .............. ok
+t/zvg_50dbm_simple.t ............ ok
+t/zvg_51dbm_file.t .............. ok
+t/zvg_52dbm_complex.t ........... skipped: DBI::SQL::Nano is being used
+t/zvg_60preparse.t .............. ok
+t/zvg_65transact.t .............. skipped: Transactions not supported by DBD::Gofer
+t/zvg_70callbacks.t ............. ok
+t/zvg_72childhandles.t .......... ok
+t/zvg_80proxy.t ................. skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvg_85gofer.t ................. ok
+t/zvg_86gofer_fail.t ............ skipped: Gofer DBI_AUTOPROXY
+t/zvg_87gofer_cache.t ........... skipped: Gofer DBI_AUTOPROXY
+t/zvg_90sql_type_cast.t ......... ok
+t/zvn_48dbi_dbd_sqlengine.t ..... ok
+t/zvn_49dbd_file.t .............. ok
+t/zvn_50dbm_simple.t ............ ok
+t/zvn_51dbm_file.t .............. ok
+t/zvn_52dbm_complex.t ........... skipped: DBI::SQL::Nano is being used
+t/zvn_85gofer.t ................. ok
+t/zvp_01basics.t ................ ok
+t/zvp_02dbidrv.t ................ ok
+t/zvp_03handle.t ................ ok
+t/zvp_04mods.t .................. ok
+t/zvp_05concathash.t ............ ok
+t/zvp_06attrs.t ................. ok
+t/zvp_07kids.t .................. skipped: $h->{Kids} attribute not supported for DBI::PurePerl
+t/zvp_08keeperr.t ............... ok
+t/zvp_09trace.t ................. ok
+t/zvp_10examp.t ................. ok
+t/zvp_11fetch.t ................. ok
+t/zvp_12quote.t ................. ok
+t/zvp_13taint.t ................. skipped: Taint attributes not supported with DBI::PurePerl
+t/zvp_14utf8.t .................. ok
+t/zvp_15array.t ................. ok
+t/zvp_16destroy.t ............... ok
+t/zvp_19fhtrace.t ............... ok
+t/zvp_20meta.t .................. ok
+t/zvp_30subclass.t .............. ok
+t/zvp_31methcache.t ............. ok
+t/zvp_35thrclone.t .............. ok
+t/zvp_40profile.t ............... skipped: profiling not supported for DBI::PurePerl
+t/zvp_41prof_dump.t ............. skipped: profiling not supported for DBI::PurePerl
+t/zvp_42prof_data.t ............. skipped: profiling not supported for DBI::PurePerl
+t/zvp_43prof_env.t .............. skipped: profiling not supported for DBI::PurePerl
+t/zvp_48dbi_dbd_sqlengine.t ..... ok
+t/zvp_49dbd_file.t .............. ok
+t/zvp_50dbm_simple.t ............ ok
+t/zvp_51dbm_file.t .............. ok
+t/zvp_52dbm_complex.t ........... skipped: DBI::SQL::Nano is being used
+t/zvp_60preparse.t .............. skipped: preparse not supported for DBI::PurePerl
+t/zvp_65transact.t .............. ok
+t/zvp_70callbacks.t ............. skipped: $h->{Callbacks} attribute not supported for DBI::PurePerl
+t/zvp_72childhandles.t .......... ok
+t/zvp_80proxy.t ................. skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvp_85gofer.t ................. ok
+t/zvp_86gofer_fail.t ............ skipped: requires Callbacks which are not supported with PurePerl
+t/zvp_87gofer_cache.t ........... ok
+t/zvp_90sql_type_cast.t ......... ok
+t/zvxgn_48dbi_dbd_sqlengine.t ... ok
+t/zvxgn_49dbd_file.t ............ ok
+t/zvxgn_50dbm_simple.t .......... ok
+t/zvxgn_51dbm_file.t ............ ok
+t/zvxgn_52dbm_complex.t ......... skipped: DBI::SQL::Nano is being used
+t/zvxgn_85gofer.t ............... ok
+t/zvxgnp_48dbi_dbd_sqlengine.t .. ok
+t/zvxgnp_49dbd_file.t ........... ok
+t/zvxgnp_50dbm_simple.t ......... ok
+t/zvxgnp_51dbm_file.t ........... ok
+t/zvxgnp_52dbm_complex.t ........ skipped: DBI::SQL::Nano is being used
+t/zvxgnp_85gofer.t .............. ok
+t/zvxgp_01basics.t .............. ok
+t/zvxgp_02dbidrv.t .............. ok
+t/zvxgp_03handle.t .............. ok
+t/zvxgp_04mods.t ................ ok
+t/zvxgp_05concathash.t .......... ok
+t/zvxgp_06attrs.t ............... ok
+t/zvxgp_07kids.t ................ skipped: $h->{Kids} attribute not supported for DBI::PurePerl
+t/zvxgp_08keeperr.t ............. ok
+t/zvxgp_09trace.t ............... ok
+t/zvxgp_10examp.t ............... ok
+t/zvxgp_11fetch.t ............... ok
+t/zvxgp_12quote.t ............... ok
+t/zvxgp_13taint.t ............... skipped: Taint attributes not supported with DBI::PurePerl
+t/zvxgp_14utf8.t ................ ok
+t/zvxgp_15array.t ............... ok
+t/zvxgp_16destroy.t ............. ok
+t/zvxgp_19fhtrace.t ............. ok
+t/zvxgp_20meta.t ................ ok
+t/zvxgp_30subclass.t ............ ok
+t/zvxgp_31methcache.t ........... ok
+t/zvxgp_35thrclone.t ............ ok
+t/zvxgp_40profile.t ............. skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_41prof_dump.t ........... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_42prof_data.t ........... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_43prof_env.t ............ skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_48dbi_dbd_sqlengine.t ... ok
+t/zvxgp_49dbd_file.t ............ ok
+t/zvxgp_50dbm_simple.t .......... ok
+t/zvxgp_51dbm_file.t ............ ok
+t/zvxgp_52dbm_complex.t ......... skipped: DBI::SQL::Nano is being used
+t/zvxgp_60preparse.t ............ skipped: preparse not supported for DBI::PurePerl
+t/zvxgp_65transact.t ............ skipped: Transactions not supported by DBD::Gofer
+t/zvxgp_70callbacks.t ........... skipped: $h->{Callbacks} attribute not supported for DBI::PurePerl
+t/zvxgp_72childhandles.t ........ ok
+t/zvxgp_80proxy.t ............... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvxgp_85gofer.t ............... ok
+t/zvxgp_86gofer_fail.t .......... skipped: requires Callbacks which are not supported with PurePerl
+t/zvxgp_87gofer_cache.t ......... skipped: Gofer DBI_AUTOPROXY
+t/zvxgp_90sql_type_cast.t ....... ok
+t/zvxnp_48dbi_dbd_sqlengine.t ... ok
+t/zvxnp_49dbd_file.t ............ ok
+t/zvxnp_50dbm_simple.t .......... ok
+t/zvxnp_51dbm_file.t ............ ok
+t/zvxnp_52dbm_complex.t ......... skipped: DBI::SQL::Nano is being used
+t/zvxnp_85gofer.t ............... ok
+All tests successful.
+Files=182, Tests=8887, 135 wallclock secs ( 1.94 usr  0.34 sys + 117.01 cusr 11.33 csys = 130.62 CPU)
+Result: PASS
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- DBI.bs blib/arch/auto/DBI/DBI.bs 644
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/dbivport.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/dbixs_rev.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/DBI.so
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/DBIXS.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/dbd_xsh.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/Driver.xst
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/Driver_xst.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/dbipport.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/dbi_sql.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/dbixs_rev.pl
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/ProxyServer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/W32ODBC.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Profile.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Changes.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/ProfileSubs.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/ProfileData.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/PurePerl.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/FAQ.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/DBD.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/ProfileDumper.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/ProfileDumper/Apache.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/SQL/Nano.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Request.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Response.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Execute.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Serializer/Storable.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Serializer/Base.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Serializer/DataDumper.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Transport/pipeone.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Transport/stream.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Gofer/Transport/Base.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Const/GetInfoType.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Const/GetInfoReturn.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Const/GetInfo/ODBC.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Const/GetInfo/ANSI.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Util/CacheMemory.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/Util/_accessor.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/DBD/SqlEngine.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/DBD/Metadata.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/DBD/SqlEngine/HowTo.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBI/DBD/SqlEngine/Developers.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/Win32/DBIODBC.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/Bundle/DBI.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/DBM.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/ExampleP.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Sponge.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/File.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/NullP.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Proxy.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/File/HowTo.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/File/Developers.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/File/Roadmap.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Transport/pipeone.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Transport/null.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Transport/corostream.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Transport/stream.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Transport/Base.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Policy/rush.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Policy/classic.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Policy/pedantic.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/Gofer/Policy/Base.pm
+Installing /home/pronoor/gitprep/extlib/bin/dbiprof
+Installing /home/pronoor/gitprep/extlib/bin/dbiproxy
+Installing /home/pronoor/gitprep/extlib/bin/dbilogstrip
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed DBI-1.634
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBI-1.634/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBI-1.634/install.json
+Searching Test::MockModule (0.05) on cpanmetadb ...
+--> Working on Test::MockModule
+Fetching http://backpan.perl.org/authors/id/G/GF/GFRANKS/Test-MockModule-v0.171.0.tar.gz
+-> OK
+Unpacking Test-MockModule-v0.171.0.tar.gz
+Entering Test-MockModule-v0.171.0
+Checking configure dependencies from META.json
+Checking if you have Module::Build 0.38 ... Yes (0.4229)
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.06)
+Configuring Test-MockModule-v0.171.0
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  SUPER is not installed
+  build_requires:
+    !  Test::Warnings is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Test-MockModule' version 'v0.171.0'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Scalar::Util 0 ... Yes (1.46_02)
+Checking if you have Test::Warnings 0 ... No
+Checking if you have SUPER 0 ... No
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have Test::More 0.88 ... Yes (1.302073)
+==> Found dependencies: Test::Warnings, SUPER
+Searching Test::Warnings (0) on cpanmetadb ...
+--> Working on Test::Warnings
+Fetching http://backpan.perl.org/authors/id/E/ET/ETHER/Test-Warnings-0.028.tar.gz
+-> OK
+Unpacking Test-Warnings-0.028.tar.gz
+Entering Test-Warnings-0.028
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Test-Warnings-0.028
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Warnings
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have if 0 ... Yes (0.0606)
+Checking if you have Test::Builder 0 ... Yes (1.302073)
+Checking if you have parent 0 ... Yes (0.236)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have File::Spec 0.82 ... Yes (3.67)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Exporter 0 ... Yes (5.72)
+Building and testing Test-Warnings-0.028
+cp lib/Test/Warnings.pm blib/lib/Test/Warnings.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.42
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.42
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     ExtUtils::MakeMaker  any     7.42
+#     File::Spec           any     3.67
+#     Test::More          0.94 1.302073
+#     if                   any   0.0606
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Test Suggests ===
+# 
+#     Module                    Want     Have
+#     ------------------------ ----- --------
+#     CPAN::Meta::Check        0.011  missing
+#     CPAN::Meta::Requirements   any    2.140
+#     PadWalker                  any  missing
+#     Test::Tester             0.108 1.302073
+# 
+# === Runtime Requires ===
+# 
+#     Module        Want     Have
+#     ------------- ---- --------
+#     Carp           any     1.42
+#     Exporter       any     5.72
+#     Test::Builder  any 1.302073
+#     parent         any    0.236
+#     strict         any     1.11
+#     warnings       any     1.37
+# 
+# === Other Modules ===
+# 
+#     Module                Have
+#     --------------- ----------
+#     Encode                2.88
+#     File::Temp          0.2304
+#     JSON::PP        2.27400_02
+#     Module::Runtime      0.016
+#     Sub::Name             0.21
+#     YAML               missing
+#     autodie               2.29
+# 
+t/00-report-prereqs.t ................. ok
+t/01-basic.t .......................... ok
+t/02-done_testing.t ................... ok
+t/03-subtest.t ........................ ok
+t/04-no-tests.t ....................... ok
+t/05-no-end-block.t ................... ok
+t/06-skip-all.t ....................... skipped: Need Foo::Bar::Baz to continue!
+t/07-no_plan.t ........................ ok
+t/08-use-if.t ......................... ok
+t/09-warnings-contents.t .............. ok
+t/10-no-done_testing.t ................ ok
+t/11-double-use.t ..................... ok
+t/12-no-newline.t ..................... ok
+t/13-propagate-warnings.t ............. ok
+t/14-propagate-subname.t .............. ok
+t/15-propagate-default.t .............. ok
+t/16-propagate-ignore.t ............... ok
+t/17-propagate-subname-colons.t ....... ok
+t/18-propagate-subname-package.t ...... ok
+t/19-propagate-nonexistent-subname.t .. ok
+t/20-propagate-stub.t ................. ok
+t/21-fail-on-warning.t ................ ok
+t/22-warnings-bareword.t .............. ok
+t/zzz-check-breaks.t .................. ok
+All tests successful.
+Files=24, Tests=75,  2 wallclock secs ( 0.08 usr  0.04 sys +  2.22 cusr  0.25 csys =  2.59 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Test/Warnings.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Test-Warnings-0.028
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-Warnings-0.028/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-Warnings-0.028/install.json
+Searching SUPER (0) on cpanmetadb ...
+--> Working on SUPER
+Fetching http://backpan.perl.org/authors/id/C/CH/CHROMATIC/SUPER-1.20190531.tar.gz
+-> OK
+Unpacking SUPER-1.20190531.tar.gz
+Entering SUPER-1.20190531
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring SUPER-1.20190531
+Running Build.PL
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'SUPER' version '1.20190531'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Scalar::Util 1.20 ... Yes (1.46_02)
+Checking if you have Sub::Identify 0.03 ... No
+Checking if you have Test::Simple 0.90 ... Yes (1.302073)
+==> Found dependencies: Sub::Identify
+Searching Sub::Identify (0.03) on cpanmetadb ...
+--> Working on Sub::Identify
+Fetching http://backpan.perl.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.tar.gz
+-> OK
+Unpacking Sub-Identify-0.14.tar.gz
+Entering Sub-Identify-0.14
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Sub-Identify-0.14
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Sub::Identify
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Building and testing Sub-Identify-0.14
+cp lib/Sub/Identify.pm blib/lib/Sub/Identify.pm
+Running Mkbootstrap for Identify ()
+chmod 644 "Identify.bs"
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Identify.bs blib/arch/auto/Sub/Identify/Identify.bs 644
+"/usr/bin/perl" "/usr/share/perl/5.26/ExtUtils/xsubpp"  -typemap '/usr/share/perl/5.26/ExtUtils/typemap'  Identify.xs > Identify.xsc
+mv Identify.xsc Identify.c
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.14\" -DXS_VERSION=\"0.14\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"   Identify.c
+rm -f blib/arch/auto/Sub/Identify/Identify.so
+x86_64-linux-gnu-gcc  -shared -L/usr/local/lib -fstack-protector-strong  Identify.o  -o blib/arch/auto/Sub/Identify/Identify.so  \
+      \
+  
+chmod 755 blib/arch/auto/Sub/Identify/Identify.so
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Identify.bs blib/arch/auto/Sub/Identify/Identify.bs 644
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/01basic-pureperl.t ......... ok
+t/01basic.t .................. ok
+t/02errors.t ................. ok
+t/03proto.t .................. ok
+t/04codelocation-pureperl.t .. ok
+t/04codelocation.t ........... ok
+t/05constant-pureperl.t ...... ok
+t/05constant.t ............... ok
+t/06codelocxs-pureperl.t ..... ok
+t/06codelocxs.t .............. ok
+t/20attributes.t ............. ok
+t/21attributes-pureperl.t .... ok
+t/30signatures.t ............. ok
+t/pod.t ...................... skipped: Test::Pod 1.14 required for testing POD
+All tests successful.
+Files=14, Tests=146,  1 wallclock secs ( 0.08 usr  0.02 sys +  1.12 cusr  0.14 csys =  1.36 CPU)
+Result: PASS
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- Identify.bs blib/arch/auto/Sub/Identify/Identify.bs 644
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/Sub/Identify/Identify.so
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/Sub/Identify.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Sub-Identify-0.14
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Sub-Identify-0.14/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Sub-Identify-0.14/install.json
+Building and testing SUPER-1.20190531
+Building SUPER
+t/1.t ................... ok
+t/bugs.t ................ ok
+t/deep_inheritance.t .... ok
+t/follow_inheritance.t .. ok
+t/get_all_parents.t ..... ok
+t/keep_going.t .......... ok
+t/keep_going_manual.t ... ok
+t/pseudoclass_syntax.t .. ok
+All tests successful.
+Files=8, Tests=51,  1 wallclock secs ( 0.05 usr  0.02 sys +  0.64 cusr  0.09 csys =  0.80 CPU)
+Result: PASS
+Building SUPER
+Installing /home/pronoor/gitprep/extlib/lib/perl5/SUPER.pm
+-> OK
+Successfully installed SUPER-1.20190531
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/SUPER-1.20190531/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/SUPER-1.20190531/install.json
+Building and testing Test-MockModule-v0.171.0
+Building Test-MockModule
+t/chaining.t ...... ok
+t/define.t ........ ok
+t/inheritance.t ... ok
+t/mock_strict.t ... ok
+t/mockmodule.t .... ok
+t/pod.t ........... skipped: Test::Pod 1.00 required for testing POD
+t/pod_coverage.t .. skipped: Test::Pod::Coverage 1.00 required for testing pod coverage
+t/prototype.t ..... ok
+t/redefine.t ...... ok
+All tests successful.
+Files=9, Tests=93,  1 wallclock secs ( 0.05 usr  0.03 sys +  0.77 cusr  0.08 csys =  0.93 CPU)
+Result: PASS
+Building Test-MockModule
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Test/MockModule.pm
+-> OK
+Successfully installed Test-MockModule-v0.171.0
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-MockModule-v0.171.0/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-MockModule-v0.171.0/install.json
+Building and testing DBIx-Connector-0.56
+Building DBIx-Connector
+t/base.t ....... ok
+t/driver.t ..... ok
+t/load.t ....... ok
+t/run.t ........ ok
+t/run_fixup.t .. ok
+t/run_ping.t ... ok
+t/svp.t ........ ok
+t/svp_fixup.t .. ok
+t/svp_live.t ... skipped: Set DBICTEST_DSN _USER and _PASS to run savepoint tests
+t/svp_ping.t ... ok
+t/txn.t ........ ok
+t/txn_fixup.t .. ok
+t/txn_ping.t ... ok
+All tests successful.
+Files=13, Tests=762,  2 wallclock secs ( 0.16 usr  0.04 sys +  1.74 cusr  0.13 csys =  2.07 CPU)
+Result: PASS
+Building DBIx-Connector
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/mysql.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/Pg.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/SQLite.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/MSSQL.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/Firebird.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector/Driver/Oracle.pm
+-> OK
+Successfully installed DBIx-Connector-0.56
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBIx-Connector-0.56/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBIx-Connector-0.56/install.json
+Searching Validator::Custom (== 1.01) on cpanmetadb ...
+--> Working on Validator::Custom
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/Validator-Custom-1.01.tar.gz
+-> OK
+Unpacking Validator-Custom-1.01.tar.gz
+Entering Validator-Custom-1.01
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Validator-Custom-1.01
+Running Makefile.PL
+Warning: prerequisite Object::Simple 3.0621 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Validator::Custom
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Object::Simple == 3.14 ... No
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+==> Found dependencies: Object::Simple
+Searching Object::Simple (== 3.14) on cpanmetadb ...
+--> Working on Object::Simple
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/Object-Simple-3.14.tar.gz
+-> OK
+Unpacking Object-Simple-3.14.tar.gz
+Entering Object-Simple-3.14
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Object-Simple-3.14
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Object::Simple
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Building and testing Object-Simple-3.14
+cp lib/Object/Simple.pm blib/lib/Object/Simple.pm
+cp lib/Object/Simple/Accessor.pm blib/lib/Object/Simple/Accessor.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/object-simple.t .. ok
+All tests successful.
+Files=1, Tests=117,  0 wallclock secs ( 0.05 usr  0.00 sys +  0.12 cusr  0.01 csys =  0.18 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Object/Simple.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Object/Simple/Accessor.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Object-Simple-3.14
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Object-Simple-3.14/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Object-Simple-3.14/install.json
+Building and testing Validator-Custom-1.01
+cp lib/Validator/Custom/Constraints.pm blib/lib/Validator/Custom/Constraints.pm
+cp lib/Validator/Custom.pm blib/lib/Validator/Custom.pm
+cp lib/Validator/Custom/Validation.pm blib/lib/Validator/Custom/Validation.pm
+cp lib/Validator/Custom/CheckFunction.pm blib/lib/Validator/Custom/CheckFunction.pm
+cp lib/Validator/Custom/Result.pm blib/lib/Validator/Custom/Result.pm
+cp lib/Validator/Custom/Document/Version0.pod blib/lib/Validator/Custom/Document/Version0.pod
+cp lib/Validator/Custom/Constraint.pm blib/lib/Validator/Custom/Constraint.pm
+cp lib/Validator/Custom/Rule.pm blib/lib/Validator/Custom/Rule.pm
+cp lib/Validator/Custom/FilterFunction.pm blib/lib/Validator/Custom/FilterFunction.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/*/*.t
+t/v0_test/validator-custom-required-json.t ....... skipped: JSON 2.0 required for this test!
+t/v0_test/validator-custom-required-timepiece.t .. ok
+t/v0_test/validator-custom.t ..................... ok
+t/validator-custom-validation.t .................. ok
+t/validator-custom.t ............................. ok
+All tests successful.
+Files=5, Tests=428,  0 wallclock secs ( 0.10 usr  0.01 sys +  0.65 cusr  0.06 csys =  0.82 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Result.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Rule.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Constraints.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Constraint.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Validation.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/FilterFunction.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/CheckFunction.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Validator/Custom/Document/Version0.pod
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Validator-Custom-1.01
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Validator-Custom-1.01/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Validator-Custom-1.01/install.json
+Searching Mojolicious::Plugin::INIConfig (== 0.03) on cpanmetadb ...
+--> Working on Mojolicious::Plugin::INIConfig
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/Mojolicious-Plugin-INIConfig-0.03.tar.gz
+-> OK
+Unpacking Mojolicious-Plugin-INIConfig-0.03.tar.gz
+Entering Mojolicious-Plugin-INIConfig-0.03
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Mojolicious-Plugin-INIConfig-0.03
+Running Makefile.PL
+Warning: prerequisite Config::Tiny 2.14 not found.
+Warning: prerequisite Mojolicious 3.84 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mojolicious::Plugin::INIConfig
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Mojolicious == 6.57 ... No
+Checking if you have Config::Tiny == 2.23 ... No
+==> Found dependencies: Mojolicious, Config::Tiny
+Searching Mojolicious (== 6.57) on cpanmetadb ...
+--> Working on Mojolicious
+Fetching http://backpan.perl.org/authors/id/S/SR/SRI/Mojolicious-6.57.tar.gz
+-> OK
+Unpacking Mojolicious-6.57.tar.gz
+Entering Mojolicious-6.57
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Mojolicious-6.57
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mojolicious
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Time::Local 1.2 ... Yes (1.25)
+Checking if you have Pod::Simple 3.09 ... Yes (3.35)
+Checking if you have IO::Socket::IP 0.37 ... Yes (0.38)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have JSON::PP 2.27103 ... Yes (2.27400_02)
+Building and testing Mojolicious-6.57
+cp lib/Mojo/Message/Response.pm blib/lib/Mojo/Message/Response.pm
+cp lib/Mojo/Collection.pm blib/lib/Mojo/Collection.pm
+cp lib/Mojo.pm blib/lib/Mojo.pm
+cp lib/Mojo/DOM/CSS.pm blib/lib/Mojo/DOM/CSS.pm
+cp lib/Mojo/Parameters.pm blib/lib/Mojo/Parameters.pm
+cp lib/Mojo/IOLoop/Client.pm blib/lib/Mojo/IOLoop/Client.pm
+cp lib/Mojo/DOM.pm blib/lib/Mojo/DOM.pm
+cp lib/Mojo/Date.pm blib/lib/Mojo/Date.pm
+cp lib/Mojo/Server/Daemon.pm blib/lib/Mojo/Server/Daemon.pm
+cp lib/Mojo/Message.pm blib/lib/Mojo/Message.pm
+cp lib/Mojo/Path.pm blib/lib/Mojo/Path.pm
+cp lib/Mojo/JSON/Pointer.pm blib/lib/Mojo/JSON/Pointer.pm
+cp lib/Mojo/Server/Hypnotoad.pm blib/lib/Mojo/Server/Hypnotoad.pm
+cp lib/Mojo/HelloWorld.pm blib/lib/Mojo/HelloWorld.pm
+cp lib/Mojo/ByteStream.pm blib/lib/Mojo/ByteStream.pm
+cp lib/Mojo/Content/Single.pm blib/lib/Mojo/Content/Single.pm
+cp lib/Mojo/Home.pm blib/lib/Mojo/Home.pm
+cp lib/Mojo/Cookie/Response.pm blib/lib/Mojo/Cookie/Response.pm
+cp lib/Mojo/Server/CGI.pm blib/lib/Mojo/Server/CGI.pm
+cp lib/Mojo/Cookie.pm blib/lib/Mojo/Cookie.pm
+cp lib/Mojo/Message/Request.pm blib/lib/Mojo/Message/Request.pm
+cp lib/Mojo/JSON.pm blib/lib/Mojo/JSON.pm
+cp lib/Mojo/Asset/File.pm blib/lib/Mojo/Asset/File.pm
+cp lib/Mojo/Reactor/Poll.pm blib/lib/Mojo/Reactor/Poll.pm
+cp lib/Mojo/Asset/Memory.pm blib/lib/Mojo/Asset/Memory.pm
+cp lib/Mojo/IOLoop/Delay.pm blib/lib/Mojo/IOLoop/Delay.pm
+cp lib/Mojo/Reactor.pm blib/lib/Mojo/Reactor.pm
+cp lib/Mojo/Cookie/Request.pm blib/lib/Mojo/Cookie/Request.pm
+cp lib/Mojo/IOLoop/resources/server.crt blib/lib/Mojo/IOLoop/resources/server.crt
+cp lib/Mojo/Cache.pm blib/lib/Mojo/Cache.pm
+cp lib/Mojo/DOM/HTML.pm blib/lib/Mojo/DOM/HTML.pm
+cp lib/Mojo/Headers.pm blib/lib/Mojo/Headers.pm
+cp lib/Mojo/IOLoop/resources/server.key blib/lib/Mojo/IOLoop/resources/server.key
+cp lib/Mojo/EventEmitter.pm blib/lib/Mojo/EventEmitter.pm
+cp lib/Mojo/Log.pm blib/lib/Mojo/Log.pm
+cp lib/Mojo/IOLoop/Stream.pm blib/lib/Mojo/IOLoop/Stream.pm
+cp lib/Mojo/IOLoop.pm blib/lib/Mojo/IOLoop.pm
+cp lib/Mojo/Reactor/EV.pm blib/lib/Mojo/Reactor/EV.pm
+cp lib/Mojo/Exception.pm blib/lib/Mojo/Exception.pm
+cp lib/Mojo/Base.pm blib/lib/Mojo/Base.pm
+cp lib/Mojo/Content/MultiPart.pm blib/lib/Mojo/Content/MultiPart.pm
+cp lib/Mojo/Content.pm blib/lib/Mojo/Content.pm
+cp lib/Mojo/Loader.pm blib/lib/Mojo/Loader.pm
+cp lib/Mojo/IOLoop/Server.pm blib/lib/Mojo/IOLoop/Server.pm
+cp lib/Mojo/Asset.pm blib/lib/Mojo/Asset.pm
+cp lib/Mojo/Server.pm blib/lib/Mojo/Server.pm
+cp lib/Mojo/UserAgent/Proxy.pm blib/lib/Mojo/UserAgent/Proxy.pm
+cp lib/Mojo/Server/Prefork.pm blib/lib/Mojo/Server/Prefork.pm
+cp lib/Mojolicious/Command/cgi.pm blib/lib/Mojolicious/Command/cgi.pm
+cp lib/Mojo/UserAgent/Server.pm blib/lib/Mojo/UserAgent/Server.pm
+cp lib/Mojolicious/Guides.pod blib/lib/Mojolicious/Guides.pod
+cp lib/Mojolicious/Controller.pm blib/lib/Mojolicious/Controller.pm
+cp lib/Mojolicious/Command/version.pm blib/lib/Mojolicious/Command/version.pm
+cp lib/Mojolicious/Command/inflate.pm blib/lib/Mojolicious/Command/inflate.pm
+cp lib/Mojolicious.pm blib/lib/Mojolicious.pm
+cp lib/Mojo/URL.pm blib/lib/Mojo/URL.pm
+cp lib/Mojolicious/Command/get.pm blib/lib/Mojolicious/Command/get.pm
+cp lib/Mojo/Transaction/WebSocket.pm blib/lib/Mojo/Transaction/WebSocket.pm
+cp lib/Mojo/WebSocket.pm blib/lib/Mojo/WebSocket.pm
+cp lib/Mojolicious/Command/generate/lite_app.pm blib/lib/Mojolicious/Command/generate/lite_app.pm
+cp lib/Mojolicious/Command/generate/app.pm blib/lib/Mojolicious/Command/generate/app.pm
+cp lib/Mojolicious/Command/generate/plugin.pm blib/lib/Mojolicious/Command/generate/plugin.pm
+cp lib/Mojo/Upload.pm blib/lib/Mojo/Upload.pm
+cp lib/Mojolicious/Command.pm blib/lib/Mojolicious/Command.pm
+cp lib/Mojo/Server/PSGI.pm blib/lib/Mojo/Server/PSGI.pm
+cp lib/Mojolicious/Command/cpanify.pm blib/lib/Mojolicious/Command/cpanify.pm
+cp lib/Mojo/UserAgent/CookieJar.pm blib/lib/Mojo/UserAgent/CookieJar.pm
+cp lib/Mojo/UserAgent/Transactor.pm blib/lib/Mojo/UserAgent/Transactor.pm
+cp lib/Mojo/Util.pm blib/lib/Mojo/Util.pm
+cp lib/Mojo/Transaction/HTTP.pm blib/lib/Mojo/Transaction/HTTP.pm
+cp lib/Mojo/Template.pm blib/lib/Mojo/Template.pm
+cp lib/Mojolicious/Command/generate/makefile.pm blib/lib/Mojolicious/Command/generate/makefile.pm
+cp lib/Mojolicious/Command/generate.pm blib/lib/Mojolicious/Command/generate.pm
+cp lib/Mojolicious/Command/daemon.pm blib/lib/Mojolicious/Command/daemon.pm
+cp lib/Mojo/Transaction.pm blib/lib/Mojo/Transaction.pm
+cp lib/Mojolicious/Command/routes.pm blib/lib/Mojolicious/Command/routes.pm
+cp lib/Mojolicious/Commands.pm blib/lib/Mojolicious/Commands.pm
+cp lib/Mojolicious/Command/psgi.pm blib/lib/Mojolicious/Command/psgi.pm
+cp lib/Mojolicious/Command/eval.pm blib/lib/Mojolicious/Command/eval.pm
+cp lib/Mojolicious/Command/test.pm blib/lib/Mojolicious/Command/test.pm
+cp lib/Mojolicious/Command/prefork.pm blib/lib/Mojolicious/Command/prefork.pm
+cp lib/Mojo/UserAgent.pm blib/lib/Mojo/UserAgent.pm
+cp lib/Mojo/Server/Morbo.pm blib/lib/Mojo/Server/Morbo.pm
+cp lib/Mojolicious/Plugin/JSONConfig.pm blib/lib/Mojolicious/Plugin/JSONConfig.pm
+cp lib/Mojolicious/resources/public/favicon.ico blib/lib/Mojolicious/resources/public/favicon.ico
+cp lib/Mojolicious/Plugin/PODRenderer.pm blib/lib/Mojolicious/Plugin/PODRenderer.pm
+cp lib/Mojolicious/Plugin/Charset.pm blib/lib/Mojolicious/Plugin/Charset.pm
+cp lib/Mojolicious/Validator/Validation.pm blib/lib/Mojolicious/Validator/Validation.pm
+cp lib/Mojolicious/Plugin/DefaultHelpers.pm blib/lib/Mojolicious/Plugin/DefaultHelpers.pm
+cp lib/Mojolicious/Sessions.pm blib/lib/Mojolicious/Sessions.pm
+cp lib/Mojolicious/Lite.pm blib/lib/Mojolicious/Lite.pm
+cp lib/Mojolicious/Types.pm blib/lib/Mojolicious/Types.pm
+cp lib/Mojolicious/Static.pm blib/lib/Mojolicious/Static.pm
+cp lib/Mojolicious/Routes/Pattern.pm blib/lib/Mojolicious/Routes/Pattern.pm
+cp lib/Mojolicious/Guides/Routing.pod blib/lib/Mojolicious/Guides/Routing.pod
+cp lib/Mojolicious/Plugin/HeaderCondition.pm blib/lib/Mojolicious/Plugin/HeaderCondition.pm
+cp lib/Mojolicious/Guides/Tutorial.pod blib/lib/Mojolicious/Guides/Tutorial.pod
+cp lib/Mojolicious/Guides/Growing.pod blib/lib/Mojolicious/Guides/Growing.pod
+cp lib/Mojolicious/Plugins.pm blib/lib/Mojolicious/Plugins.pm
+cp lib/Mojolicious/Plugin/Config.pm blib/lib/Mojolicious/Plugin/Config.pm
+cp lib/Mojolicious/resources/public/mojo/failraptor.png blib/lib/Mojolicious/resources/public/mojo/failraptor.png
+cp lib/Mojolicious/Renderer.pm blib/lib/Mojolicious/Renderer.pm
+cp lib/Mojolicious/Plugin/Mount.pm blib/lib/Mojolicious/Plugin/Mount.pm
+cp lib/Mojolicious/Plugin/EPLRenderer.pm blib/lib/Mojolicious/Plugin/EPLRenderer.pm
+cp lib/Mojolicious/Plugin/EPRenderer.pm blib/lib/Mojolicious/Plugin/EPRenderer.pm
+cp lib/Mojolicious/Routes/Match.pm blib/lib/Mojolicious/Routes/Match.pm
+cp lib/Mojolicious/resources/public/mojo/jquery/jquery.js blib/lib/Mojolicious/resources/public/mojo/jquery/jquery.js
+cp lib/Mojolicious/Guides/FAQ.pod blib/lib/Mojolicious/Guides/FAQ.pod
+cp lib/Mojolicious/Plugin.pm blib/lib/Mojolicious/Plugin.pm
+cp lib/Mojolicious/Routes.pm blib/lib/Mojolicious/Routes.pm
+cp lib/Mojolicious/Guides/Rendering.pod blib/lib/Mojolicious/Guides/Rendering.pod
+cp lib/Mojolicious/Routes/Route.pm blib/lib/Mojolicious/Routes/Route.pm
+cp lib/Mojolicious/Guides/Cookbook.pod blib/lib/Mojolicious/Guides/Cookbook.pod
+cp lib/Mojolicious/Validator.pm blib/lib/Mojolicious/Validator.pm
+cp lib/Mojolicious/Guides/Contributing.pod blib/lib/Mojolicious/Guides/Contributing.pod
+cp lib/Mojolicious/Plugin/TagHelpers.pm blib/lib/Mojolicious/Plugin/TagHelpers.pm
+cp lib/Mojolicious/resources/public/mojo/noraptor.png blib/lib/Mojolicious/resources/public/mojo/noraptor.png
+cp lib/Mojolicious/resources/public/mojo/logo-black.png blib/lib/Mojolicious/resources/public/mojo/logo-black.png
+cp lib/Mojolicious/resources/templates/mojo/exception.html.ep blib/lib/Mojolicious/resources/templates/mojo/exception.html.ep
+cp lib/Mojolicious/resources/templates/mojo/menubar.html.ep blib/lib/Mojolicious/resources/templates/mojo/menubar.html.ep
+cp lib/Mojolicious/resources/public/mojo/stripes.png blib/lib/Mojolicious/resources/public/mojo/stripes.png
+cp lib/Mojolicious/resources/public/mojo/pinstripe-dark.png blib/lib/Mojolicious/resources/public/mojo/pinstripe-dark.png
+cp lib/ojo.pm blib/lib/ojo.pm
+cp lib/Mojolicious/resources/templates/mojo/perldoc.html.ep blib/lib/Mojolicious/resources/templates/mojo/perldoc.html.ep
+cp lib/Mojolicious/resources/public/mojo/pinstripe-light.png blib/lib/Mojolicious/resources/public/mojo/pinstripe-light.png
+cp lib/Mojolicious/resources/public/mojo/prettify/prettify-mojo-dark.css blib/lib/Mojolicious/resources/public/mojo/prettify/prettify-mojo-dark.css
+cp lib/Test/Mojo.pm blib/lib/Test/Mojo.pm
+cp lib/Mojolicious/resources/public/mojo/logo-white.png blib/lib/Mojolicious/resources/public/mojo/logo-white.png
+cp lib/Mojolicious/resources/templates/mojo/debug.html.ep blib/lib/Mojolicious/resources/templates/mojo/debug.html.ep
+cp lib/Mojolicious/resources/templates/mojo/not_found.html.ep blib/lib/Mojolicious/resources/templates/mojo/not_found.html.ep
+cp lib/Mojolicious/resources/public/mojo/notfound.png blib/lib/Mojolicious/resources/public/mojo/notfound.png
+cp lib/Mojolicious/resources/public/mojo/prettify/run_prettify.js blib/lib/Mojolicious/resources/public/mojo/prettify/run_prettify.js
+cp lib/Mojolicious/resources/public/mojo/prettify/prettify-mojo-light.css blib/lib/Mojolicious/resources/public/mojo/prettify/prettify-mojo-light.css
+cp script/hypnotoad blib/script/hypnotoad
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/hypnotoad
+cp script/mojo blib/script/mojo
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/mojo
+cp script/morbo blib/script/morbo
+"/usr/bin/perl" -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/morbo
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/*/*.t
+t/mojo/asset.t ............................. ok
+t/mojo/base.t .............................. ok
+t/mojo/bytestream.t ........................ ok
+t/mojo/cache.t ............................. ok
+t/mojo/cgi.t ............................... ok
+t/mojo/collection.t ........................ ok
+t/mojo/content.t ........................... ok
+t/mojo/cookie.t ............................ ok
+t/mojo/cookiejar.t ......................... ok
+t/mojo/daemon.t ............................ ok
+t/mojo/daemon_ipv6_tls.t ................... skipped: set TEST_IPV6 to enable this test (developer only!)
+t/mojo/date.t .............................. ok
+t/mojo/delay.t ............................. ok
+t/mojo/dom.t ............................... ok
+t/mojo/eventemitter.t ...................... ok
+t/mojo/exception.t ......................... ok
+t/mojo/headers.t ........................... ok
+t/mojo/home.t .............................. ok
+t/mojo/hypnotoad.t ......................... skipped: set TEST_HYPNOTOAD to enable this test (developer only!)
+t/mojo/ioloop.t ............................ ok
+t/mojo/ioloop_ipv6.t ....................... skipped: set TEST_IPV6 to enable this test (developer only!)
+t/mojo/ioloop_tls.t ........................ skipped: set TEST_TLS to enable this test (developer only!)
+t/mojo/json.t .............................. ok
+t/mojo/json_pointer.t ...................... ok
+t/mojo/loader.t ............................ ok
+t/mojo/log.t ............................... ok
+t/mojo/morbo.t ............................. skipped: set TEST_MORBO to enable this test (developer only!)
+t/mojo/parameters.t ........................ ok
+t/mojo/path.t .............................. ok
+t/mojo/prefork.t ........................... skipped: set TEST_PREFORK to enable this test (developer only!)
+t/mojo/proxy.t ............................. ok
+t/mojo/psgi.t .............................. ok
+t/mojo/reactor_ev.t ........................ skipped: set TEST_EV to enable this test (developer only!)
+t/mojo/reactor_poll.t ...................... ok
+t/mojo/request.t ........................... ok
+t/mojo/request_cgi.t ....................... ok
+t/mojo/response.t .......................... ok
+t/mojo/template.t .......................... ok
+t/mojo/transactor.t ........................ ok
+t/mojo/url.t ............................... ok
+t/mojo/user_agent.t ........................ ok
+t/mojo/user_agent_online.t ................. skipped: set TEST_ONLINE to enable this test (developer only!)
+t/mojo/user_agent_socks.t .................. skipped: set TEST_SOCKS to enable this test (developer only!)
+t/mojo/user_agent_tls.t .................... skipped: set TEST_TLS to enable this test (developer only!)
+t/mojo/util.t .............................. ok
+t/mojo/websocket.t ......................... ok
+t/mojo/websocket_frames.t .................. ok
+t/mojo/websocket_proxy.t ................... ok
+t/mojo/websocket_proxy_tls.t ............... skipped: set TEST_TLS to enable this test (developer only!)
+t/mojolicious/app.t ........................ ok
+t/mojolicious/charset_lite_app.t ........... ok
+t/mojolicious/command.t .................... ok
+t/mojolicious/commands.t ................... ok
+t/mojolicious/dispatch.t ................... ok
+t/mojolicious/dispatcher_lite_app.t ........ ok
+t/mojolicious/embedded_app.t ............... ok
+t/mojolicious/embedded_lite_app.t .......... ok
+t/mojolicious/exception_lite_app.t ......... ok
+t/mojolicious/external_app.t ............... ok
+t/mojolicious/external_lite_app.t .......... ok
+t/mojolicious/group_lite_app.t ............. ok
+t/mojolicious/json_config_lite_app.t ....... ok
+t/mojolicious/json_config_mode_lite_app.t .. ok
+t/mojolicious/layouted_lite_app.t .......... ok
+t/mojolicious/lite_app.t ................... ok
+t/mojolicious/longpolling_lite_app.t ....... ok
+t/mojolicious/multipath_lite_app.t ......... ok
+t/mojolicious/ojo.t ........................ ok
+t/mojolicious/pattern.t .................... ok
+t/mojolicious/pod_renderer_lite_app.t ...... ok
+t/mojolicious/production_app.t ............. ok
+t/mojolicious/rebased_lite_app.t ........... ok
+t/mojolicious/renderer.t ................... ok
+t/mojolicious/restful_lite_app.t ........... ok
+t/mojolicious/routes.t ..................... ok
+t/mojolicious/static_lite_app.t ............ ok
+t/mojolicious/tag_helper_lite_app.t ........ ok
+t/mojolicious/testing_app.t ................ ok
+t/mojolicious/tls_lite_app.t ............... skipped: set TEST_TLS to enable this test (developer only!)
+t/mojolicious/twinkle_lite_app.t ........... ok
+t/mojolicious/types.t ...................... ok
+t/mojolicious/upload_lite_app.t ............ ok
+t/mojolicious/upload_stream_lite_app.t ..... ok
+t/mojolicious/validation_lite_app.t ........ ok
+t/mojolicious/websocket_lite_app.t ......... ok
+t/pod.t .................................... skipped: set TEST_POD to enable this test (developer only!)
+t/pod_coverage.t ........................... skipped: set TEST_POD to enable this test (developer only!)
+All tests successful.
+Files=87, Tests=10559, 49 wallclock secs ( 1.73 usr  0.28 sys + 38.86 cusr  3.17 csys = 44.04 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/ojo.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/DOM.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Cookie.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Collection.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/UserAgent.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Loader.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/URL.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Cache.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Exception.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Content.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Headers.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Path.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/EventEmitter.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Transaction.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Upload.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Reactor.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/ByteStream.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Date.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Template.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Home.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/HelloWorld.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Message.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Util.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Log.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Asset.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Base.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/WebSocket.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Parameters.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/JSON.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Reactor/Poll.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Reactor/EV.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Message/Request.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Message/Response.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Cookie/Request.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Cookie/Response.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Content/Single.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Content/MultiPart.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/JSON/Pointer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/DOM/CSS.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/DOM/HTML.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/Stream.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/Client.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/Server.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/Delay.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/resources/server.crt
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/IOLoop/resources/server.key
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Transaction/HTTP.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Transaction/WebSocket.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/CGI.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/PSGI.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/Hypnotoad.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/Daemon.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/Morbo.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Server/Prefork.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Asset/Memory.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/Asset/File.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/UserAgent/CookieJar.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/UserAgent/Transactor.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/UserAgent/Server.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojo/UserAgent/Proxy.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Validator.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Lite.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Renderer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Commands.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Static.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Controller.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Sessions.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Routes.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugins.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Types.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Validator/Validation.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Growing.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Contributing.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Tutorial.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Rendering.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Cookbook.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/Routing.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Guides/FAQ.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/EPRenderer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/PODRenderer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DefaultHelpers.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/Mount.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/JSONConfig.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/TagHelpers.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/HeaderCondition.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/Config.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/EPLRenderer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/Charset.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/favicon.ico
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/stripes.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/logo-white.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/notfound.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/pinstripe-light.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/noraptor.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/failraptor.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/pinstripe-dark.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/logo-black.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/prettify/prettify-mojo-dark.css
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/prettify/run_prettify.js
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/prettify/prettify-mojo-light.css
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/public/mojo/jquery/jquery.js
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/templates/mojo/debug.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/templates/mojo/not_found.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/templates/mojo/exception.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/templates/mojo/menubar.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/resources/templates/mojo/perldoc.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/get.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/routes.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/cgi.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/version.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/eval.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/prefork.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/cpanify.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/daemon.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/inflate.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/psgi.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/test.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/generate.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/generate/lite_app.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/generate/plugin.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/generate/makefile.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Command/generate/app.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Routes/Route.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Routes/Pattern.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Routes/Match.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Test/Mojo.pm
+Installing /home/pronoor/gitprep/extlib/bin/hypnotoad
+Installing /home/pronoor/gitprep/extlib/bin/mojo
+Installing /home/pronoor/gitprep/extlib/bin/morbo
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Mojolicious-6.57
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-6.57/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-6.57/install.json
+Searching Config::Tiny (== 2.23) on cpanmetadb ...
+--> Working on Config::Tiny
+Fetching http://backpan.perl.org/authors/id/R/RS/RSAVAGE/Config-Tiny-2.23.tgz
+-> OK
+Unpacking Config-Tiny-2.23.tgz
+Entering Config-Tiny-2.23
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Config-Tiny-2.23
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Config::Tiny
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have UNIVERSAL 0 ... Yes (1.13)
+Checking if you have File::Temp 0.22 ... Yes (0.2304)
+Checking if you have utf8 0 ... Yes (1.19)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have File::Spec 3.3 ... Yes (3.67)
+Building and testing Config-Tiny-2.23
+cp lib/Config/Tiny.pm blib/lib/Config/Tiny.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/01.compile.t ...... ok
+t/02.main.t ......... ok
+t/03.read.string.t .. ok
+t/04.utf8.t ......... ok
+t/05.zero.t ......... ok
+All tests successful.
+Files=5, Tests=49,  0 wallclock secs ( 0.05 usr  0.00 sys +  0.53 cusr  0.05 csys =  0.63 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Config/Tiny.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Config-Tiny-2.23
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Config-Tiny-2.23/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Config-Tiny-2.23/install.json
+Building and testing Mojolicious-Plugin-INIConfig-0.03
+cp lib/Mojolicious/Plugin/INIConfig.pm blib/lib/Mojolicious/Plugin/INIConfig.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/ini_config_lite_app.t ....... ok
+t/ini_config_mode_lite_app.t .. ok
+All tests successful.
+Files=2, Tests=29,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.87 cusr  0.10 csys =  1.02 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/INIConfig.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Mojolicious-Plugin-INIConfig-0.03
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-INIConfig-0.03/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-INIConfig-0.03/install.json
+Searching Mojolicious::Plugin::DBViewer (== 0.28) on cpanmetadb ...
+--> Working on Mojolicious::Plugin::DBViewer
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/Mojolicious-Plugin-DBViewer-0.28.tar.gz
+-> OK
+Unpacking Mojolicious-Plugin-DBViewer-0.28.tar.gz
+Entering Mojolicious-Plugin-DBViewer-0.28
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Mojolicious-Plugin-DBViewer-0.28
+Running Makefile.PL
+Warning: prerequisite DBIx::Custom 0.25 not found.
+Warning: prerequisite Data::Page 2.02 not found.
+Warning: prerequisite Mojolicious::Plugin::AutoRoute 0.12 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mojolicious::Plugin::DBViewer
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have DBIx::Connector == 0.56 ... Yes (0.56)
+Checking if you have Validator::Custom == 1.01 ... Yes (1.01)
+Checking if you have Data::Page == 2.02 ... No
+Checking if you have Mojolicious::Plugin::AutoRoute == 0.19 ... No
+Checking if you have Mojolicious == 6.57 ... Yes (6.57)
+Checking if you have DBIx::Custom == 0.40 ... No
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+==> Found dependencies: Data::Page, Mojolicious::Plugin::AutoRoute, DBIx::Custom
+Searching Data::Page (== 2.02) on cpanmetadb ...
+--> Working on Data::Page
+Fetching http://backpan.perl.org/authors/id/L/LB/LBROCARD/Data-Page-2.02.tar.gz
+-> OK
+Unpacking Data-Page-2.02.tar.gz
+Entering Data-Page-2.02
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.06)
+Checking if you have Module::Build 0.38 ... Yes (0.4229)
+Configuring Data-Page-2.02
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  Class::Accessor::Chained::Fast is not installed
+    !  Test::Exception is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Data-Page' version '2.02'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Class::Accessor::Chained::Fast 0 ... No
+Checking if you have Test::Exception 0 ... No
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+==> Found dependencies: Class::Accessor::Chained::Fast, Test::Exception
+Searching Class::Accessor::Chained::Fast (0) on cpanmetadb ...
+--> Working on Class::Accessor::Chained::Fast
+Fetching http://backpan.perl.org/authors/id/R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
+-> OK
+Unpacking Class-Accessor-Chained-0.01.tar.gz
+Entering Class-Accessor-Chained-0.01
+Checking configure dependencies from META.yml
+Checking if you have Module::Build 0.38 ... Yes (0.4229)
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.06)
+Configuring Class-Accessor-Chained-0.01
+Running Build.PL
+Checking prerequisites...
+  requires:
+    !  Class::Accessor is not installed
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Created MYMETA.yml and MYMETA.json
+Creating new 'Build' script for 'Class-Accessor-Chained' version '0.01'
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have Class::Accessor 0 ... No
+==> Found dependencies: Class::Accessor
+Searching Class::Accessor (0) on cpanmetadb ...
+--> Working on Class::Accessor
+Fetching http://backpan.perl.org/authors/id/K/KA/KASEI/Class-Accessor-0.51.tar.gz
+-> OK
+Unpacking Class-Accessor-0.51.tar.gz
+Entering Class-Accessor-0.51
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Class-Accessor-0.51
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Class::Accessor
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have base 1.01 ... Yes (2.26)
+Building and testing Class-Accessor-0.51
+cp lib/Class/Accessor.pm blib/lib/Class/Accessor.pm
+cp lib/Class/Accessor/Fast.pm blib/lib/Class/Accessor/Fast.pm
+cp lib/Class/Accessor/Faster.pm blib/lib/Class/Accessor/Faster.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/accessors.t ..... ok
+t/aliases.t ....... ok
+t/antlers.t ....... ok
+t/bestpractice.t .. ok
+t/caller.t ........ ok
+t/croak.t ......... ok
+t/getset.t ........ ok
+All tests successful.
+Files=7, Tests=139,  1 wallclock secs ( 0.06 usr  0.02 sys +  0.61 cusr  0.07 csys =  0.76 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Class/Accessor.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Class/Accessor/Fast.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Class/Accessor/Faster.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Class-Accessor-0.51
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Class-Accessor-0.51/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Class-Accessor-0.51/install.json
+Building and testing Class-Accessor-Chained-0.01
+Building Class-Accessor-Chained
+t/00compile.t .. ok
+t/chained.t .... ok
+All tests successful.
+Files=2, Tests=8,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.16 cusr  0.04 csys =  0.24 CPU)
+Result: PASS
+Building Class-Accessor-Chained
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Class/Accessor/Chained.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Class/Accessor/Chained/Fast.pm
+-> OK
+Successfully installed Class-Accessor-Chained-0.01
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Class-Accessor-Chained-0.01/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Class-Accessor-Chained-0.01/install.json
+Searching Test::Exception (0) on cpanmetadb ...
+--> Working on Test::Exception
+Fetching http://backpan.perl.org/authors/id/E/EX/EXODIST/Test-Exception-0.43.tar.gz
+-> OK
+Unpacking Test-Exception-0.43.tar.gz
+Entering Test-Exception-0.43
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Test-Exception-0.43
+Running Makefile.PL
+Warning: prerequisite Sub::Uplevel 0.18 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Test::Exception
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Builder::Tester 1.07 ... Yes (1.302073)
+Checking if you have Test::Harness 2.03 ... Yes (3.38)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have Test::Builder 0.7 ... Yes (1.302073)
+Checking if you have overload 0 ... Yes (1.28)
+Checking if you have Sub::Uplevel 0.18 ... No
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have base 1.01 ... Yes (2.26)
+Checking if you have Exporter 0 ... Yes (5.72)
+==> Found dependencies: Sub::Uplevel
+Searching Sub::Uplevel (0.18) on cpanmetadb ...
+--> Working on Sub::Uplevel
+Fetching http://backpan.perl.org/authors/id/D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
+-> OK
+Unpacking Sub-Uplevel-0.2800.tar.gz
+Entering Sub-Uplevel-0.2800
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Sub-Uplevel-0.2800
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Sub::Uplevel
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have constant 0 ... Yes (1.33)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have lib 0 ... Yes (0.64)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have File::Spec 3.3 ... Yes (3.67)
+Building and testing Sub-Uplevel-0.2800
+cp lib/Sub/Uplevel.pm blib/lib/Sub/Uplevel.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker 6.17 7.42
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.42
+# 
+# === Test Requires ===
+# 
+#     Module              Want     Have
+#     ------------------- ---- --------
+#     Exporter             any     5.72
+#     ExtUtils::MakeMaker  any     7.42
+#     File::Spec           any     3.67
+#     Test::More           any 1.302073
+#     lib                  any     0.64
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module   Want Have
+#     -------- ---- ----
+#     Carp      any 1.42
+#     constant  any 1.33
+#     strict    any 1.11
+#     warnings  any 1.37
+# 
+t/00-report-prereqs.t ........ ok
+t/01_die_check.t ............. ok
+t/02_uplevel.t ............... ok
+t/03_nested_uplevels.t ....... ok
+t/04_honor_later_override.t .. ok
+t/05_honor_prior_override.t .. ok
+t/06_db_args.t ............... ok
+t/07_uplevel_too_high.t ...... ok
+t/08_exporter.t .............. ok
+t/09_emptylist.t ............. ok
+All tests successful.
+Files=10, Tests=158,  1 wallclock secs ( 0.08 usr  0.01 sys +  1.05 cusr  0.09 csys =  1.23 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Sub/Uplevel.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Sub-Uplevel-0.2800
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Sub-Uplevel-0.2800/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Sub-Uplevel-0.2800/install.json
+Building and testing Test-Exception-0.43
+cp lib/Test/Exception.pm blib/lib/Test/Exception.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/caller.t ...... ok
+t/edge-cases.t .. skipped: stuff relating to RT#24678 that I have not fixed yet
+t/Exception.t ... ok
+t/import.t ...... ok
+t/isa.t ......... ok
+# $Test::More::VERSION = 1.302073
+t/lives_and.t ... ok
+t/preserve.t .... ok
+t/return.t ...... ok
+t/rt.t .......... ok
+t/stacktrace.t .. ok
+t/throws_ok.t ... ok
+All tests successful.
+
+Test Summary Report
+-------------------
+t/Exception.t (Wstat: 0 Tests: 20 Failed: 0)
+  TODO passed:   20
+Files=11, Tests=53,  1 wallclock secs ( 0.06 usr  0.03 sys +  1.01 cusr  0.13 csys =  1.23 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Test/Exception.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Test-Exception-0.43
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-Exception-0.43/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Test-Exception-0.43/install.json
+Building and testing Data-Page-2.02
+Building Data-Page
+t/constructor.t ... ok
+t/pod-coverage.t .. skipped: Test::Pod::Coverage 1.04 required for testing POD coverage
+t/pod.t ........... skipped: Test::Pod 1.14 required for testing POD
+t/simple.t ........ ok
+All tests successful.
+Files=4, Tests=866,  1 wallclock secs ( 0.19 usr  0.01 sys +  0.57 cusr  0.04 csys =  0.81 CPU)
+Result: PASS
+Building Data-Page
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Data/Page.pm
+-> OK
+Successfully installed Data-Page-2.02
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Data-Page-2.02/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Data-Page-2.02/install.json
+Searching Mojolicious::Plugin::AutoRoute (== 0.19) on cpanmetadb ...
+--> Working on Mojolicious::Plugin::AutoRoute
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/Mojolicious-Plugin-AutoRoute-0.19.tar.gz
+-> OK
+Unpacking Mojolicious-Plugin-AutoRoute-0.19.tar.gz
+Entering Mojolicious-Plugin-AutoRoute-0.19
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Mojolicious-Plugin-AutoRoute-0.19
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mojolicious::Plugin::AutoRoute
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Mojolicious == 6.57 ... Yes (6.57)
+Building and testing Mojolicious-Plugin-AutoRoute-0.19
+cp lib/Mojolicious/Plugin/AutoRoute.pm blib/lib/Mojolicious/Plugin/AutoRoute.pm
+cp lib/Mojolicious/Plugin/AutoRoute/Util.pm blib/lib/Mojolicious/Plugin/AutoRoute/Util.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/basic.t .. ok
+All tests successful.
+Files=1, Tests=104,  1 wallclock secs ( 0.06 usr  0.01 sys +  0.76 cusr  0.06 csys =  0.89 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/AutoRoute.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/AutoRoute/Util.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Mojolicious-Plugin-AutoRoute-0.19
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-AutoRoute-0.19/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-AutoRoute-0.19/install.json
+Searching DBIx::Custom (== 0.40) on cpanmetadb ...
+--> Working on DBIx::Custom
+Fetching http://backpan.perl.org/authors/id/K/KI/KIMOTO/DBIx-Custom-0.40.tar.gz
+-> OK
+Unpacking DBIx-Custom-0.40.tar.gz
+Entering DBIx-Custom-0.40
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring DBIx-Custom-0.40
+Running Makefile.PL
+Warning: prerequisite DBD::SQLite 1.25 not found.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for DBIx::Custom
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have DBI == 1.634 ... Yes (1.634)
+Checking if you have Object::Simple == 3.14 ... Yes (3.14)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have DBIx::Connector == 0.56 ... Yes (0.56)
+Checking if you have DBD::SQLite == 1.50 ... No
+==> Found dependencies: DBD::SQLite
+Searching DBD::SQLite (== 1.50) on cpanmetadb ...
+--> Working on DBD::SQLite
+Fetching http://backpan.perl.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.50.tar.gz
+-> OK
+Unpacking DBD-SQLite-1.50.tar.gz
+Entering DBD-SQLite-1.50
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Checking if you have File::Spec 0.82 ... Yes (3.67)
+Checking if you have DBI 1.57 ... Yes (1.634)
+Configuring DBD-SQLite-1.50
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Using DBI 1.634 (for perl 5.026001 on x86_64-linux-gnu-thread-multi) installed in /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/
+Generating a Unix-style Makefile
+Writing Makefile for DBD::SQLite
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::Builder 0.86 ... Yes (1.302073)
+Checking if you have Test::More 0.94 ... Yes (1.302073)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have File::Spec 3.3 ... Yes (3.67)
+Checking if you have Tie::Hash 0 ... Yes (1.05)
+Checking if you have DBI == 1.634 ... Yes (1.634)
+Building and testing DBD-SQLite-1.50
+cp lib/DBD/SQLite/Cookbook.pod blib/lib/DBD/SQLite/Cookbook.pod
+cp lib/DBD/SQLite/VirtualTable/PerlData.pm blib/lib/DBD/SQLite/VirtualTable/PerlData.pm
+cp lib/DBD/SQLite/VirtualTable/FileContent.pm blib/lib/DBD/SQLite/VirtualTable/FileContent.pm
+cp lib/DBD/SQLite/VirtualTable.pm blib/lib/DBD/SQLite/VirtualTable.pm
+cp lib/DBD/SQLite.pm blib/lib/DBD/SQLite.pm
+cp lib/DBD/SQLite/Constants.pm blib/lib/DBD/SQLite/Constants.pm
+cp lib/DBD/SQLite/Fulltext_search.pod blib/lib/DBD/SQLite/Fulltext_search.pod
+Running Mkbootstrap for SQLite ()
+chmod 644 "SQLite.bs"
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- SQLite.bs blib/arch/auto/DBD/SQLite/SQLite.bs 644
+"/usr/bin/perl" -p -e "s/~DRIVER~/SQLite/g" /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI/Driver.xst > SQLite.xsi
+"/usr/bin/perl" "/usr/share/perl/5.26/ExtUtils/xsubpp"  -typemap '/usr/share/perl/5.26/ExtUtils/typemap' -typemap '/home/pronoor/gitprep/setup/work/1577253922.26653/DBD-SQLite-1.50/typemap'  SQLite.xs > SQLite.xsc
+mv SQLite.xsc SQLite.c
+x86_64-linux-gnu-gcc -c  -I. -I/home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wl,-Bsymbolic -O2 -g   -DVERSION=\"1.50\" -DXS_VERSION=\"1.50\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_JSON1 -DNDEBUG=1 -DHAVE_USLEEP=1 SQLite.c
+SQLite.xs: In function ‘XS_DBD__SQLite__db__do’:
+SQLite.xs:24:18: warning: implicit declaration of function ‘sqlite_db_do_sv’; did you mean ‘sqlite_st_rows’? [-Wimplicit-function-declaration]
+         retval = sqlite_db_do_sv(dbh, imp_dbh, statement);
+                  ^~~~~~~~~~~~~~~
+                  sqlite_st_rows
+SQLite.xs: In function ‘boot_DBD__SQLite’:
+SQLite.xs:12:5: warning: implicit declaration of function ‘init_cxt’; did you mean ‘init_tm’? [-Wimplicit-function-declaration]
+     init_cxt();
+     ^~~~~~~~
+     init_tm
+x86_64-linux-gnu-gcc -c  -I. -I/home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wl,-Bsymbolic -O2 -g   -DVERSION=\"1.50\" -DXS_VERSION=\"1.50\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_JSON1 -DNDEBUG=1 -DHAVE_USLEEP=1 dbdimp.c
+x86_64-linux-gnu-gcc -c  -I. -I/home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBI -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wl,-Bsymbolic -O2 -g   -DVERSION=\"1.50\" -DXS_VERSION=\"1.50\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_JSON1 -DNDEBUG=1 -DHAVE_USLEEP=1 sqlite3.c
+rm -f blib/arch/auto/DBD/SQLite/SQLite.so
+x86_64-linux-gnu-gcc  -shared -L/usr/local/lib -fstack-protector-strong -Wl,-Bsymbolic  SQLite.o dbdimp.o sqlite3.o  -o blib/arch/auto/DBD/SQLite/SQLite.so  \
+      \
+  
+chmod 755 blib/arch/auto/DBD/SQLite/SQLite.so
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- SQLite.bs blib/arch/auto/DBD/SQLite/SQLite.bs 644
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/**/*.t
+# $DBI::VERSION=1.634
+# Compile Options:
+#   ENABLE_COLUMN_METADATA
+#   ENABLE_FTS3
+#   ENABLE_FTS3_PARENTHESIS
+#   ENABLE_FTS4
+#   ENABLE_JSON1
+#   ENABLE_RTREE
+#   ENABLE_STAT4
+#   SYSTEM_MALLOC
+#   THREADSAFE=1
+t/01_compile.t ........................................ ok
+# sqlite_version=3.10.2
+t/02_logon.t .......................................... ok
+t/03_create_table.t ................................... ok
+t/04_insert.t ......................................... ok
+t/05_select.t ......................................... ok
+t/06_tran.t ........................................... ok
+t/07_error.t .......................................... ok
+t/08_busy.t ........................................... ok
+t/09_create_function.t ................................ ok
+t/10_create_aggregate.t ............................... ok
+t/12_unicode.t ........................................ ok
+t/13_create_collation.t ............................... ok
+t/14_progress_handler.t ............................... ok
+t/15_ak_dbd.t ......................................... ok
+t/16_column_info.t .................................... ok
+t/17_createdrop.t ..................................... ok
+t/18_insertfetch.t .................................... ok
+t/19_bindparam.t ...................................... ok
+t/20_blobs.t .......................................... ok
+t/21_blobtext.t ....................................... ok
+t/22_listfields.t ..................................... ok
+t/23_nulls.t .......................................... ok
+t/24_numrows.t ........................................ ok
+t/25_chopblanks.t ..................................... ok
+t/26_commit.t ......................................... ok
+t/27_metadata.t ....................................... ok
+t/28_schemachange.t ................................... ok
+t/30_auto_rollback.t .................................. ok
+t/31_bind_weird_number_param.t ........................ ok
+t/32_inactive_error.t ................................. ok
+t/33_non_latin_path.t ................................. ok
+t/34_online_backup.t .................................. ok
+t/35_table_info.t ..................................... ok
+t/36_hooks.t .......................................... ok
+t/37_regexp.t ......................................... ok
+t/38_empty_statement.t ................................ ok
+t/39_foreign_keys.t ................................... ok
+t/40_multiple_statements.t ............................ ok
+t/41_placeholders.t ................................... ok
+t/42_primary_key_info.t ............................... ok
+t/43_fts3.t ........................................... ok
+t/44_rtree.t .......................................... ok
+t/45_savepoints.t ..................................... ok
+t/46_mod_perl.t ....................................... skipped: requires APR::Table
+t/47_execute.t ........................................ ok
+t/48_bind_param_is_sticky.t ........................... ok
+t/49_trace_and_profile.t .............................. ok
+t/50_foreign_key_info.t ............................... ok
+t/51_table_column_metadata.t .......................... ok
+t/52_db_filename.t .................................... ok
+t/53_status.t ......................................... ok
+t/54_literal_txn.t .................................... ok
+t/55_statistics_info.t ................................ ok
+t/56_open_flags.t ..................................... ok
+t/57_uri_filename.t ................................... ok
+t/58_see_if_its_a_number_and_explicit_binding.t ....... ok
+t/59_extended_result_codes.t .......................... skipped: this test is for Win32 only
+t/60_readonly.t ....................................... ok
+t/61_strlike.t ........................................ ok
+t/cookbook_variance.t ................................. ok
+t/rt_106151_outermost_savepoint.t ..................... ok
+t/rt_106950_extra_warnings_with_savepoints.t .......... ok
+t/rt_15186_prepcached.t ............................... ok
+t/rt_21406_auto_finish.t .............................. ok
+t/rt_25371_asymmetric_unicode.t ....................... ok
+t/rt_25460_numeric_aggregate.t ........................ ok
+t/rt_25924_user_defined_func_unicode.t ................ ok
+t/rt_26775_distinct.t ................................. ok
+t/rt_27553_prepared_cache_and_analyze.t ............... ok
+t/rt_29058_group_by.t ................................. ok
+t/rt_29629_sqlite_where_length.t ...................... ok
+t/rt_31324_full_names.t ............................... ok
+t/rt_32889_prepare_cached_reexecute.t ................. ok
+t/rt_36836_duplicate_key.t ............................ ok
+t/rt_36838_unique_and_bus_error.t ..................... ok
+t/rt_40594_nullable.t ................................. ok
+t/rt_48393_debug_panic_with_commit.t .................. skipped: set $ENV{TEST_DBD_SQLITE_WITH_DEBUGGER} to enable this test
+t/rt_50503_fts3.t ..................................... ok
+t/rt_52573_manual_exclusive_lock.t .................... ok
+t/rt_53235_icu_compatibility.t ........................ skipped: requires SQLite ICU plugin to be enabled
+t/rt_62370_diconnected_handles_operation.t ............ ok
+t/rt_64177_ping_wipes_out_the_errstr.t ................ ok
+t/rt_67581_bind_params_mismatch.t ..................... ok
+t/rt_71311_bind_col_and_unicode.t ..................... ok
+t/rt_73159_fts_tokenizer_segfault.t ................... ok
+t/rt_73787_exponential_buffer_overflow.t .............. ok
+t/rt_76395_int_overflow.t ............................. ok
+t/rt_77724_primary_key_with_a_whitespace.t ............ ok
+t/rt_78833_utf8_flag_for_column_names.t ............... ok
+t/rt_81536_multi_column_primary_key_info.t ............ ok
+t/rt_88228_sqlite_3_8_0_crash.t ....................... ok
+t/rt_96050_db_filename_for_a_closed_database.t ........ ok
+t/rt_96877_unicode_statements.t ....................... ok
+t/rt_96878_fts_contentless_table.t .................... ok
+t/rt_97598_crash_on_disconnect_with_virtual_tables.t .. ok
+t/virtual_table/00_base.t ............................. ok
+t/virtual_table/01_destroy.t .......................... ok
+t/virtual_table/02_find_function.t .................... ok
+t/virtual_table/10_filecontent.t ...................... ok
+t/virtual_table/11_filecontent_fulltext.t ............. ok
+t/virtual_table/20_perldata.t ......................... ok
+t/virtual_table/21_perldata_charinfo.t ................ ok
+t/virtual_table/rt_99748.t ............................ ok
+All tests successful.
+Files=103, Tests=3561, 24 wallclock secs ( 0.81 usr  0.18 sys + 13.28 cusr  1.50 csys = 15.77 CPU)
+Result: PASS
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- SQLite.bs blib/arch/auto/DBD/SQLite/SQLite.bs 644
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/DBD/SQLite/SQLite.so
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.c
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/share/dist/DBD-SQLite/sqlite3ext.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.h
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/VirtualTable.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/Fulltext_search.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/Cookbook.pod
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/Constants.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed DBD-SQLite-1.50
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBD-SQLite-1.50/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBD-SQLite-1.50/install.json
+Building and testing DBIx-Custom-0.40
+cp lib/DBIx/Custom.pm blib/lib/DBIx/Custom.pm
+cp lib/DBIx/Custom/Result.pm blib/lib/DBIx/Custom/Result.pm
+cp lib/DBIx/Custom/Order.pm blib/lib/DBIx/Custom/Order.pm
+cp lib/DBIx/Custom/Util.pm blib/lib/DBIx/Custom/Util.pm
+cp lib/DBIx/Custom/NotExists.pm blib/lib/DBIx/Custom/NotExists.pm
+cp lib/DBIx/Custom/Mapper.pm blib/lib/DBIx/Custom/Mapper.pm
+cp lib/DBIx/Custom/Model.pm blib/lib/DBIx/Custom/Model.pm
+cp lib/DBIx/Custom/Query.pm blib/lib/DBIx/Custom/Query.pm
+cp lib/DBIx/Custom/Where.pm blib/lib/DBIx/Custom/Where.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t t/next/*.t
+t/access.t ....................... skipped: Microsoft access(ODBC, *.mdb) private test
+t/access2007-accdb.t ............. skipped: Microsoft access(ODBC, *.accdb(2007)) private test
+t/access2010-accdb.t ............. skipped: Microsoft access(ODBC, *.accdb(2010)) private test
+t/common-mysql-fullqualified.t ... skipped: mysql private test
+t/common-mysql.t ................. skipped: mysql private test
+t/common-oracle.t ................ skipped: oracle private test
+t/common-postgresql.t ............ skipped: postgresql private test
+DBI::db=HASH(0x557a329ad080)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector.pm line 141.
+t/common-sqlite-fullqualified.t .. ok
+DBI::db=HASH(0x55aacaa1d2a0)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector.pm line 141.
+t/common-sqlite-quote.t .......... ok
+DBI::db=HASH(0x56341d0c4d08)->disconnect invalidates 1 active statement handle (either destroy statement handles or call finish on them before disconnecting) at /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Connector.pm line 141.
+t/common-sqlite.t ................ ok
+t/common-sqlserver.t ............. skipped: sqlserver private test
+t/common.t ....................... skipped: common.t is always skipped
+t/mysql-async.t .................. skipped: mysql private test
+t/mysql.t ........................ skipped: mysql private test
+t/mysql2.t ....................... skipped: mysql private test
+t/sqlite-quote.t ................. ok
+t/sqlite.t ....................... ok
+All tests successful.
+Files=17, Tests=1296,  6 wallclock secs ( 0.26 usr  0.05 sys +  5.44 cusr  0.34 csys =  6.09 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Result.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Order.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Model.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Query.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Util.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/NotExists.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Where.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/DBIx/Custom/Mapper.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed DBIx-Custom-0.40
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBIx-Custom-0.40/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/DBIx-Custom-0.40/install.json
+Building and testing Mojolicious-Plugin-DBViewer-0.28
+cp lib/Mojolicious/Plugin/DBViewer/Command.pm blib/lib/Mojolicious/Plugin/DBViewer/Command.pm
+cp lib/Mojolicious/Plugin/DBViewer/public/js/bootstrap.js blib/lib/Mojolicious/Plugin/DBViewer/public/js/bootstrap.js
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/null-allowed-columns.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/null-allowed-columns.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/MySQL/Command.pm blib/lib/Mojolicious/Plugin/DBViewer/MySQL/Command.pm
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/primary-keys.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/primary-keys.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/public/css/bootstrap.css blib/lib/Mojolicious/Plugin/DBViewer/public/css/bootstrap.css
+cp lib/Mojolicious/Plugin/DBViewer.pm blib/lib/Mojolicious/Plugin/DBViewer.pm
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/index.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/index.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/create-tables.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/create-tables.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/public/css/bootstrap-responsive.css blib/lib/Mojolicious/Plugin/DBViewer/public/css/bootstrap-responsive.css
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/database-engines.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/database-engines.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/charsets.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/charsets.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select-statements.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select-statements.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/SQLite/Command.pm blib/lib/Mojolicious/Plugin/DBViewer/SQLite/Command.pm
+cp lib/Mojolicious/Plugin/DBViewer/MySQL.pm blib/lib/Mojolicious/Plugin/DBViewer/MySQL.pm
+cp lib/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings-white.png blib/lib/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings-white.png
+cp lib/Mojolicious/Plugin/DBViewer/public/js/jquery-1.9.1.js blib/lib/Mojolicious/Plugin/DBViewer/public/js/jquery-1.9.1.js
+cp lib/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings.png blib/lib/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings.png
+cp lib/Mojolicious/Plugin/DBViewer/templates/layouts/dbviewer_common.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/layouts/dbviewer_common.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/navi.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/navi.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/tables.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/tables.html.ep
+cp lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/table.html.ep blib/lib/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/table.html.ep
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/common-basic.t .. skipped: common.t is always skipped
+t/load.t .......... ok
+t/mysql-basic.t ... skipped: mysql private test
+t/mysql-only.t .... skipped: mysql private test
+t/sqlite-basic.t .. ok
+t/sqlite-only.t ... ok
+All tests successful.
+Files=6, Tests=352,  4 wallclock secs ( 0.08 usr  0.01 sys +  4.01 cusr  0.24 csys =  4.34 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/Command.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/MySQL.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/js/bootstrap.js
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/js/jquery-1.9.1.js
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/img/glyphicons-halflings-white.png
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/css/bootstrap.css
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/public/css/bootstrap-responsive.css
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/MySQL/Command.pm
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/layouts/dbviewer_common.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/navi.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/database-engines.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/primary-keys.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select-statements.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/table.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/tables.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/charsets.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/create-tables.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/select.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/index.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/templates/dbviewer/auto/null-allowed-columns.html.ep
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/DBViewer/SQLite/Command.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Mojolicious-Plugin-DBViewer-0.28
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-DBViewer-0.28/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-DBViewer-0.28/install.json
+Already tried Mojolicious. Skipping.
+Already tried DBD::SQLite. Skipping.
+Searching Text::Markdown::Hoedown (== 1.01) on cpanmetadb ...
+--> Working on Text::Markdown::Hoedown
+Fetching http://backpan.perl.org/authors/id/T/TO/TOKUHIROM/Text-Markdown-Hoedown-1.01.tar.gz
+-> OK
+Unpacking Text-Markdown-Hoedown-1.01.tar.gz
+Entering Text-Markdown-Hoedown-1.01
+Checking configure dependencies from META.json
+Checking if you have CPAN::Meta 0 ... Yes (2.150010)
+Checking if you have File::pushd 0 ... No
+Checking if you have ExtUtils::ParseXS 3.22 ... Yes (3.34)
+Checking if you have ExtUtils::Install 1.46 ... Yes (2.06)
+Checking if you have Module::Build 0.38 ... Yes (0.4229)
+Checking if you have CPAN::Meta::Prereqs 0 ... Yes (2.150010)
+==> Found dependencies: File::pushd
+Searching File::pushd (0) on cpanmetadb ...
+--> Working on File::pushd
+Fetching http://backpan.perl.org/authors/id/D/DA/DAGOLDEN/File-pushd-1.016.tar.gz
+-> OK
+Unpacking File-pushd-1.016.tar.gz
+Entering File-pushd-1.016
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring File-pushd-1.016
+Running Makefile.PL
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for File::pushd
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have File::Path 0 ... Yes (2.12_01)
+Checking if you have File::Temp 0.22 ... Yes (0.2304)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have File::Basename 0 ... Yes (2.85)
+Checking if you have File::Spec 3.3 ... Yes (3.67)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have warnings 0 ... Yes (1.37)
+Checking if you have Test::More 0.96 ... Yes (1.302073)
+Checking if you have Cwd 0 ... Yes (3.67)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have File::Spec::Functions 0 ... Yes (3.67)
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have overload 0 ... Yes (1.28)
+Building and testing File-pushd-1.016
+cp lib/File/pushd.pm blib/lib/File/pushd.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# 
+# Versions for all modules listed in MYMETA.json (including optional ones):
+# 
+# === Configure Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker 6.17 7.42
+# 
+# === Configure Suggests ===
+# 
+#     Module      Want       Have
+#     -------- ------- ----------
+#     JSON::PP 2.27300 2.27400_02
+# 
+# === Build Requires ===
+# 
+#     Module              Want Have
+#     ------------------- ---- ----
+#     ExtUtils::MakeMaker  any 7.42
+# 
+# === Test Requires ===
+# 
+#     Module                Want     Have
+#     --------------------- ---- --------
+#     ExtUtils::MakeMaker    any     7.42
+#     File::Basename         any     2.85
+#     File::Spec             any     3.67
+#     File::Spec::Functions  any     3.67
+#     Test::More            0.96 1.302073
+# 
+# === Test Recommends ===
+# 
+#     Module         Want     Have
+#     ---------- -------- --------
+#     CPAN::Meta 2.120900 2.150010
+# 
+# === Runtime Requires ===
+# 
+#     Module     Want    Have
+#     ---------- ---- -------
+#     Carp        any    1.42
+#     Cwd         any    3.67
+#     Exporter    any    5.72
+#     File::Path  any 2.12_01
+#     File::Spec  any    3.67
+#     File::Temp  any  0.2304
+#     overload    any    1.28
+#     strict      any    1.11
+#     warnings    any    1.37
+# 
+t/00-report-prereqs.t .. ok
+t/exception.t .......... ok
+t/File_pushd.t ......... ok
+t/void-context.t ....... ok
+All tests successful.
+Files=4, Tests=49,  1 wallclock secs ( 0.05 usr  0.01 sys +  0.76 cusr  0.03 csys =  0.85 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/File/pushd.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed File-pushd-1.016
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/File-pushd-1.016/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/File-pushd-1.016/install.json
+Configuring Text-Markdown-Hoedown-1.01
+Running Build.PL
+Can't locate builder/MyBuilder.pm in @INC (you may need to install the builder::MyBuilder module) (@INC contains: /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi /home/pronoor/gitprep/extlib/lib/perl5 /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at Build.PL line 12.
+BEGIN failed--compilation aborted at Build.PL line 12.
+-> N/A
+-> FAIL Configure failed for Text-Markdown-Hoedown-1.01. See /home/pronoor/gitprep/setup/work/1577253922.26653/build.log for details.
+Searching Data::Page::Navigation (== 0.06) on cpanmetadb ...
+--> Working on Data::Page::Navigation
+Fetching http://backpan.perl.org/authors/id/K/KA/KAZEBURO/Data-Page-Navigation-0.06.tar.gz
+-> OK
+Unpacking Data-Page-Navigation-0.06.tar.gz
+Entering Data-Page-Navigation-0.06
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Data-Page-Navigation-0.06
+Running Makefile.PL
+Can't locate inc/Module/Install.pm in @INC (you may need to install the inc::Module::Install module) (@INC contains: /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi /home/pronoor/gitprep/extlib/lib/perl5 /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at Makefile.PL line 1.
+BEGIN failed--compilation aborted at Makefile.PL line 1.
+-> N/A
+-> FAIL Configure failed for Data-Page-Navigation-0.06. See /home/pronoor/gitprep/setup/work/1577253922.26653/build.log for details.
+Searching Mojolicious::Plugin::BasicAuth (== 0.08) on cpanmetadb ...
+--> Working on Mojolicious::Plugin::BasicAuth
+Fetching http://backpan.perl.org/authors/id/T/TE/TEMPIRE/Mojolicious-Plugin-BasicAuth-0.08.tar.gz
+-> OK
+Unpacking Mojolicious-Plugin-BasicAuth-0.08.tar.gz
+Entering Mojolicious-Plugin-BasicAuth-0.08
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Mojolicious-Plugin-BasicAuth-0.08
+Running Makefile.PL
+WARNING: Older versions of ExtUtils::MakeMaker may errantly install README.pod as part of this distribution. It is recommended to avoid using this path in CPAN modules.
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Mojolicious::Plugin::BasicAuth
+Writing MYMETA.yml and MYMETA.json
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have Mojolicious == 6.57 ... Yes (6.57)
+Building and testing Mojolicious-Plugin-BasicAuth-0.08
+cp lib/Mojolicious/Plugin/BasicAuth.pm blib/lib/Mojolicious/Plugin/BasicAuth.pm
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+# /under-bridge
+# /user-pass
+# /user-pass-with-colon-password
+# /pass
+# /get-auth-callback
+# /get-auth-callback-with-colon-password
+# /under-bridge
+t/auth.t .. ok
+All tests successful.
+Files=1, Tests=45,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.55 cusr  0.04 csys =  0.64 CPU)
+Result: PASS
+Installing /home/pronoor/gitprep/extlib/lib/perl5/Mojolicious/Plugin/BasicAuth.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Mojolicious-Plugin-BasicAuth-0.08
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-BasicAuth-0.08/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Mojolicious-Plugin-BasicAuth-0.08/install.json
+Searching Time::HiRes (== 1.9732) on cpanmetadb ...
+--> Working on Time::HiRes
+Fetching http://backpan.perl.org/authors/id/J/JH/JHI/Time-HiRes-1.9732.tar.gz
+-> OK
+Unpacking Time-HiRes-1.9732.tar.gz
+Entering Time-HiRes-1.9732
+Checking configure dependencies from META.json
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.42)
+Configuring Time-HiRes-1.9732
+Running Makefile.PL
+do "hints/linux.pl" failed, '.' is no longer in @INC; did you mean do "./hints/linux.pl"? at Makefile.PL line 370.
+Configuring Time::HiRes...
+Using hints hints/linux.pl...
+Have syscall()... looking for syscall.h... found <syscall.h>.
+Looking for gettimeofday()... found.
+Looking for setitimer()... found.
+Looking for getitimer()... found.
+You have interval timers (both setitimer and getitimer).
+Looking for ualarm()... NOT found.
+But you have setitimer().
+We can make a Time::HiRes::ualarm().
+Looking for usleep()... found.
+Looking for nanosleep()... testing... found.
+You can mix subsecond sleeps with signals, if you want to.
+(It's still not portable, though.)
+Looking for clock_gettime()... found.
+Looking for clock_getres()... found.
+Looking for clock_nanosleep()... found.
+Looking for clock()... found.
+Looking for stat() subsecond timestamps...
+Trying struct stat st_atimespec.tv_nsec...NOT found.
+Trying struct stat st_atimensec...NOT found.
+Trying struct stat st_atime_n...NOT found.
+Trying struct stat st_atim.tv_nsec...found.
+Trying struct stat st_uatime...NOT found.
+You seem to have stat() subsecond timestamps.
+(Your struct stat has them, but the filesystems must help.)
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Time::HiRes
+Writing MYMETA.yml and MYMETA.json
+Now you may issue 'make'.  Do not forget also 'make test'.
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have ExtUtils::MakeMaker 6.48 ... Yes (7.42)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have Test::More 0.96 ... Yes (1.302073)
+Checking if you have Carp 0 ... Yes (1.42)
+Checking if you have Config 0 ... Yes (5.026001)
+Checking if you have Exporter 0 ... Yes (5.72)
+Checking if you have DynaLoader 0 ... Yes (1.42)
+Building and testing Time-HiRes-1.9732
+cp HiRes.pm blib/lib/Time/HiRes.pm
+Running Mkbootstrap for HiRes ()
+chmod 644 "HiRes.bs"
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- HiRes.bs blib/arch/auto/Time/HiRes/HiRes.bs 644
+"/usr/bin/perl" "/usr/share/perl/5.26/ExtUtils/xsubpp"  -typemap '/usr/share/perl/5.26/ExtUtils/typemap' -typemap '/home/pronoor/gitprep/setup/work/1577253922.26653/Time-HiRes-1.9732/typemap'  HiRes.xs > HiRes.xsc
+mv HiRes.xsc HiRes.c
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"1.9732\" -DXS_VERSION=\"1.9732\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"  -DTIME_HIRES_NANOSLEEP -DTIME_HIRES_CLOCK_GETTIME -DTIME_HIRES_CLOCK_GETRES -DTIME_HIRES_CLOCK_NANOSLEEP -DTIME_HIRES_CLOCK -DTIME_HIRES_STAT=4 -DATLEASTFIVEOHOHFIVE HiRes.c
+rm -f blib/arch/auto/Time/HiRes/HiRes.so
+LD_RUN_PATH="/lib/x86_64-linux-gnu" x86_64-linux-gnu-gcc  -shared -L/usr/local/lib -fstack-protector-strong  HiRes.o  -o blib/arch/auto/Time/HiRes/HiRes.so  \
+   -lrt   \
+  
+chmod 755 blib/arch/auto/Time/HiRes/HiRes.so
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- HiRes.bs blib/arch/auto/Time/HiRes/HiRes.bs 644
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/alarm.t ......... ok
+t/clock.t ......... ok
+t/gettimeofday.t .. ok
+t/itimer.t ........ ok
+t/nanosleep.t ..... ok
+t/sleep.t ......... ok
+t/stat.t .......... ok
+t/time.t .......... ok
+t/tv_interval.t ... ok
+t/ualarm.t ........ ok
+t/usleep.t ........ ok
+All tests successful.
+Files=11, Tests=95, 21 wallclock secs ( 0.08 usr  0.01 sys + 11.35 cusr  0.12 csys = 11.56 CPU)
+Result: PASS
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- HiRes.bs blib/arch/auto/Time/HiRes/HiRes.bs 644
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/auto/Time/HiRes/HiRes.so
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/Time/HiRes.pm
+Appending installation info to /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+-> OK
+Successfully installed Time-HiRes-1.9732 (downgraded from 1.9741)
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Time-HiRes-1.9732/MYMETA.json
+Installing /home/pronoor/gitprep/extlib/lib/perl5/x86_64-linux-gnu-thread-multi/.meta/Time-HiRes-1.9732/install.json
+Searching Time::Moment (== 0.38) on cpanmetadb ...
+--> Working on Time::Moment
+Fetching http://backpan.perl.org/authors/id/C/CH/CHANSEN/Time-Moment-0.38.tar.gz
+-> OK
+Unpacking Time-Moment-0.38.tar.gz
+Entering Time-Moment-0.38
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.59 ... Yes (7.42)
+Checking if you have ExtUtils::ParseXS 3.18 ... Yes (3.34)
+Configuring Time-Moment-0.38
+Running Makefile.PL
+# The following modules are not available.
+# `perl Makefile.PL | cpanm` will install them:
+Module::Install
+-> N/A
+-> FAIL Configure failed for Time-Moment-0.38. See /home/pronoor/gitprep/setup/work/1577253922.26653/build.log for details.
+Already tried Config::Tiny. Skipping.
+Already tried Object::Simple. Skipping.
+Already tried DBIx::Custom. Skipping.
+Already tried Data::Page. Skipping.
+Already tried DBI. Skipping.
+Already tried Mojolicious::Plugin::AutoRoute. Skipping.
+-> FAIL Installing the dependencies failed: Module 'Time::Moment' is not installed, Module 'Text::Markdown::Hoedown' is not installed, Module 'Data::Page::Navigation' is not installed
+-> FAIL Bailing out the installation for ..
+24 distributions installed

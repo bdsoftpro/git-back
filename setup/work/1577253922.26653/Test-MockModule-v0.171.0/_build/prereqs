@@ -1,0 +1,16 @@
+do{ my $x = {
+       'build_requires' => {
+                             'Test::More' => '0.88',
+                             'Test::Warnings' => 0
+                           },
+       'conflicts' => {},
+       'recommends' => {},
+       'requires' => {
+                       'Carp' => 0,
+                       'SUPER' => 0,
+                       'Scalar::Util' => 0,
+                       'perl' => '5.006'
+                     },
+       'test_requires' => {}
+     };
+$x; }
